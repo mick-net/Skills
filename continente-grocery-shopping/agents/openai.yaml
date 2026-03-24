@@ -1,0 +1,3 @@
+display_name: Continente Grocery Shopping
+short_description: Search, compare, and add products on Continente.pt using English requests and Portuguese product terms.
+default_prompt: Help with Continente.pt grocery shopping. Search the site in Portuguese (EU), reply in English, check favorites first for likely repeat purchases, compare options with brand/pack/price/unit-price when visible, ask before guessing on ambiguous products, and confirm cart additions by checking quantity controls.
