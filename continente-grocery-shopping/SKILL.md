@@ -1,6 +1,6 @@
 ---
 name: continente-grocery-shopping
-description: Search, compare, and add grocery and household products on Continente.pt using the browser tool. Use when the user wants help with Continente grocery shopping, favorites, product search, product comparison, ingredient/detail lookup, cart additions, or Portuguese product discovery from English requests. Especially useful when the user asks in English but the site should be searched in Portuguese (EU), when favorites should be checked first for likely matches, or when ambiguous product types need clarification before adding.
+description: Use when the user wants help with Continente grocery shopping, favorites, product search, product comparison, ingredient/detail lookup.
 ---
 
 # Continente Grocery Shopping
@@ -15,7 +15,7 @@ Use the browser tool on `continente.pt` to search products, inspect favorites, c
 - Do not guess when a vague request maps to multiple plausible products; ask.
 - Confirm adds by checking that the UI switches from `Comprar` / `Adicionar ao carrinho` to quantity controls.
 - If login is required and credentials are not already available in trusted context or memory, ask the user to provide them in chat or store them in a private local file / environment-backed secret source before proceeding.
-- This skill uses the browser tool, so a supported browser must be installed; Playwright browser support is recommended. See: https://docs.openclaw.ai/tools/browser#playwright-requirement
+- If logged-in account pages behave differently from public product pages, read [references/browser-runtime-notes.md](references/browser-runtime-notes.md).
 
 ## Workflow
 
