@@ -1,0 +1,3 @@
+display_name: Traceable Commit
+short_description: Create narrow, decision-aware Git commits.
+default_prompt: Commit only the relevant files for this task using the traceable-commit workflow.

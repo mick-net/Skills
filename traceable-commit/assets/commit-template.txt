@@ -1,0 +1,18 @@
+<type>: <short outcome>
+
+Why:
+- 
+
+How:
+- 
+
+Verification:
+- 
+
+Spec: 
+Plan: 
+ADR: 
+Issue: 
+Decision: 
+Initiated-by: user
+Implemented-by: codex

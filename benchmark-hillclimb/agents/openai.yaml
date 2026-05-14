@@ -1,0 +1,3 @@
+display_name: Benchmark Hillclimb
+short_description: Improve agents with measured benchmark experiments.
+default_prompt: Analyze this benchmark failure and design one focused, anti-overfitting experiment.

@@ -1,0 +1,3 @@
+display_name: Marketing Use-Case Pipeline
+short_description: Turn real workflows into validated marketing use cases.
+default_prompt: Create a reusable marketing use-case pack for this workflow, including source plan, synthetic workspace plan, output contract, and review criteria.

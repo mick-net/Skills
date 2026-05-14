@@ -1,0 +1,3 @@
+display_name: Marketing Capture
+short_description: Record and publish real product marketing assets.
+default_prompt: Create a deterministic capture plan for this use case and produce publishable screenshots or video assets.
