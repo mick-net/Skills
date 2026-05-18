@@ -1,6 +1,6 @@
 ---
 name: solo-founder-growth
-description: Solo-founder SaaS and app-builder operating playbook for making more MRR with small teams or no team. Use when the user asks what to build, what not to build, how to simplify scope, validate an MVP, price a product, grow with founder-led marketing, launch on X/Product Hunt/communities, use build-in-public, turn features into marketing, move from self-serve to B2B, audit whether they are overbuilding instead of selling, run a direct/brutal solo-founder coaching check-in, or create a weekly growth plan inspired by bootstrapped founders like Pieter Levels, Yasser Elsaid, Marc Lou, Tony Dinh, Jon Yongfook, and other indie hackers.
+description: Solo-founder SaaS and app-builder operating playbook for making more MRR with small teams or no team. Use when the user asks what to build, what not to build, how to simplify scope, validate an MVP, price a product, grow with founder-led marketing, launch on X/Product Hunt/communities, use build-in-public, turn features into marketing, move from self-serve to B2B, audit whether they are overbuilding instead of selling, run a direct/brutal solo-founder coaching check-in, maintain repo-local /company founder context and coach logs, gatekeep ideas in company/ideas before implementation, or create a weekly growth plan inspired by bootstrapped founders like Pieter Levels, Yasser Elsaid, Marc Lou, Tony Dinh, Jon Yongfook, and other indie hackers.
 ---
 
 # Solo Founder Growth
@@ -31,6 +31,7 @@ Load only the reference needed for the user request:
 - Founder evidence and who-said-what notes: `references/founder-evidence.md`
 - Optional Lenny skill routing: `references/lenny-skill-map.md`
 - Optional GStack workflow routing: `references/gstack-skill-map.md`
+- Repo-local company context and idea gatekeeping: `references/company-context.md`
 
 ## Core Workflow
 
@@ -72,6 +73,7 @@ Load only the reference needed for the user request:
 - If the user asks for a coach/check-in: inspect available repo evidence first, then ask uncomfortable questions only where evidence is missing.
 - If the bottleneck maps cleanly to an installed Lenny skill, either read that skill for extra depth or suggest it explicitly. Use `references/lenny-skill-map.md`; keep the solo-founder filter in control so VC/org-heavy advice does not dominate.
 - If the bottleneck maps to GStack-style idea validation or plan review, use `references/gstack-skill-map.md`. Run the buyer/pain/paid-wedge/proof gate before suggesting engineering planning.
+- Use `/company` as the durable founder context folder when present or appropriate. Inspect and maintain `company/product.md`, `company/product-marketing.md`, `company/customers/`, `company/coach/`, and `company/ideas/` according to `references/company-context.md`.
 
 ## Brutal Coach Mode
 
@@ -95,7 +97,7 @@ Use when the user asks for accountability, asks "what should I focus on?", seems
    - What should be shipped, sold, or cut by next week.
 4. Log the session when useful:
    - Prefer `scripts/log_coach_session.py --repo <repo> --summary <file-or-text>`.
-   - The default log path is `.codex/solo-founder-growth-coach.md` inside the repo.
+   - The default log path is `company/coach/solo-founder-growth-coach.md` inside the repo.
    - If not in a repo, ask where to log or skip logging.
 
 ## Output Shape

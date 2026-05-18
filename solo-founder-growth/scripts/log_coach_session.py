@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Append a solo-founder coaching entry to a repo-local log."""
+"""Append a solo-founder coaching entry to a repo-local company log."""
 
 from __future__ import annotations
 
@@ -40,7 +40,7 @@ def main() -> int:
     parser.add_argument("--summary-file", help="File containing markdown summary to append.")
     parser.add_argument(
         "--log-path",
-        help="Optional log path. Defaults to <repo>/.codex/solo-founder-growth-coach.md.",
+        help="Optional log path. Defaults to <repo>/company/coach/solo-founder-growth-coach.md.",
     )
     args = parser.parse_args()
 
@@ -50,7 +50,7 @@ def main() -> int:
     if not summary:
         raise SystemExit("Summary is empty.")
 
-    log_path = Path(args.log_path).expanduser().resolve() if args.log_path else root / ".codex" / "solo-founder-growth-coach.md"
+    log_path = Path(args.log_path).expanduser().resolve() if args.log_path else root / "company" / "coach" / "solo-founder-growth-coach.md"
     log_path.parent.mkdir(parents=True, exist_ok=True)
 
     today = dt.datetime.now().astimezone().strftime("%Y-%m-%d %H:%M %Z")

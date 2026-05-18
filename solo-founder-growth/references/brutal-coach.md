@@ -27,7 +27,8 @@ Use local repo evidence when available:
 - `rg -n "customer|pricing|Stripe|MRR|ARR|launch|waitlist|testimonial|demo|onboarding|churn|trial|analytics|PostHog|Plausible|newsletter|blog|docs|specs|ICP|buyer|persona" .`
 - `find . -maxdepth 3 -type f` to locate docs, specs, marketing pages, and notes.
 - Product docs: `README*`, `specs/`, `company/`, `docs/`, `blog/`, `marketing/`, landing pages, pricing pages.
-- Existing log: `.codex/solo-founder-growth-coach.md`.
+- Existing log: `company/coach/solo-founder-growth-coach.md`.
+- Company context: `company/product.md`, `company/product-marketing.md`, `company/customers/`, `company/coach/`, `company/ideas/`.
 
 Respect dirty worktrees. Do not modify product code unless the user asks.
 
@@ -65,6 +66,8 @@ Ask only the questions that matter:
 - Which channel are you committing to for 30 days?
 - What is the exact CTA for the next launch post?
 - What are you avoiding because code feels more comfortable?
+- Which `company/ideas` item are you trying to sneak into implementation without buyer proof?
+- Which customer transcript, note, or support artifact justifies this work?
 
 ## Output Format
 
@@ -76,12 +79,13 @@ Use:
 - `Stop Doing`: specific technical or product work to pause.
 - `By Next Week`: 3-5 actions, including at least one customer/revenue action.
 - `Log Entry`: summarize what should be appended to the repo coaching log.
+- `Company Context Updates`: call out stale or missing `/company` files that should be updated before or after the work.
 
 ## Repo-Local Log
 
 Log path:
 
-`.codex/solo-founder-growth-coach.md`
+`company/coach/solo-founder-growth-coach.md`
 
 Each entry should include:
 
@@ -96,3 +100,20 @@ Each entry should include:
 - Open questions.
 
 Use `scripts/log_coach_session.py` for deterministic append logging.
+
+## Company Folder Discipline
+
+Treat `/company` as the founder memory that future agents should trust before chat history:
+
+- `company/product.md`: what the product does, who it serves, current wedge, core promise, current stage.
+- `company/product-marketing.md`: ICP, positioning, channels, launch notes, content strategy, proof points.
+- `company/customers/`: customer meeting transcripts, interview notes, support summaries, churn notes, testimonials.
+- `company/coach/`: coaching logs, weekly accountability, hard reads, commitments.
+- `company/ideas/`: raw ideas and opportunities, not an implementation backlog.
+
+When coaching:
+
+- If `company/product.md` or `company/product-marketing.md` is missing or stale, say so directly.
+- If the user asks to implement an idea from `company/ideas`, gate it first: buyer, painful job, smallest paid wedge, proof, and expected MRR/activation/retention/distribution impact.
+- Do not let ideas bypass customer evidence just because they are documented.
+- Prefer appending dated notes over rewriting durable docs unless the user explicitly asks for a cleanup.

@@ -110,7 +110,7 @@ Run this weekly when the founder is prone to overbuilding:
    - One customer conversation.
    - One public demo or useful content piece.
    - One pricing/checkout/activation improvement.
-4. Append the check-in to `.codex/solo-founder-growth-coach.md`.
+4. Append the check-in to `company/coach/solo-founder-growth-coach.md`.
 
 Jon Yongfook-style default:
 - Alternate code and marketing weeks, or reserve at least 50% of founder time for growth work until the product has stable demand.
