@@ -88,6 +88,13 @@ Track:
 - Support load.
 - Gross margin.
 
+Guardrails:
+- Contain pricing experiments to new signups when possible.
+- Do not surprise existing customers with inconsistent public pricing.
+- If using one-time pricing, define the path to recurring before the one-time buyers become a dead end.
+- For global prosumer products, consider local currency display and payment friction.
+- For AI/agent products, consider usage-based pricing when one user can create many automated actions.
+
 ## Pricing Output Template
 
 - `Current buyer`: who pays and why.

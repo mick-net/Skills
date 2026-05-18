@@ -2,6 +2,17 @@
 
 Use this when the user asks for X, Grok, Google AI, Perplexity, or YouTube prompts to study solo founders.
 
+## X Research Guardrails
+
+Before turning a post into a tactic:
+
+- Read the full thread, not just the isolated post.
+- Check replies and quote-tweets for sarcasm, jokes, corrections, or community context.
+- Separate literal advice from satire, memes, rage-bait, and motivational shorthand.
+- Mark every lesson as `confirmed`, `inferred`, or `discarded`.
+- Prefer repeated serious claims over one-off viral posts.
+- Do not add a tactic to the skill if it only works because the founder already has a large audience, reputation, or unusual network.
+
 ## Universal Grok Prompt
 
 ```text
@@ -15,14 +26,15 @@ Extract:
 5. What a solo founder should copy.
 6. What a solo founder should NOT copy.
 7. How this differs from VC-backed startup advice.
+8. Which posts are jokes/sarcasm/memes and should NOT be treated as advice.
 
-Output as a tactical playbook, not biography. Be skeptical and cite evidence.
+Output as a tactical playbook, not biography. Be skeptical, read full thread context, and cite evidence.
 ```
 
 ## Comparison Prompt
 
 ```text
-Compare @yasser_elsaid_, @levelsio, @marclou, @tdinh_me, @yongfook, @damengchen, @arvidkahl, and @dannypostmaa as solo/bootstrapped founders.
+Compare @yasser_elsaid_, @levelsio, @marclou, @tdinh_me, @yongfook, @damengchen, @arvidkahl, @dannypostmaa, @dvassallo, and @IronBrands16 as solo/bootstrapped founders.
 
 Create a distilled solo-founder skill/playbook with:
 1. Shared principles.
@@ -34,6 +46,7 @@ Create a distilled solo-founder skill/playbook with:
 7. Launch templates.
 8. Anti-patterns and survivorship-bias warnings.
 9. A 30-day action plan for a technical solo founder.
+10. Any posts that are sarcastic or context-dependent and should be excluded.
 
 Use X posts as evidence and include tweet URLs.
 ```
@@ -41,7 +54,7 @@ Use X posts as evidence and include tweet URLs.
 ## Brutal Coach Prompt
 
 ```text
-Act as a brutally direct solo-founder coach inspired by Pieter Levels, Jon Yongfook, Tony Dinh, Yasser Elsaid, Marc Lou, Damon Chen, Arvid Kahl, and Danny Postma.
+Act as a brutally direct solo-founder coach inspired by Pieter Levels, Jon Yongfook, Tony Dinh, Yasser Elsaid, Marc Lou, Damon Chen, Arvid Kahl, Danny Postma, Daniel Vassallo, and Iron Brands.
 
 I am a technical founder. Audit whether I am overbuilding instead of validating, selling, and marketing.
 
@@ -102,9 +115,28 @@ Jon:
 - `from:yongfook "free tools"`
 - `from:yongfook "Jobs to be Done"`
 - `from:yongfook "Charge More"`
+- `from:yongfook "$1k MRR"`
+- `from:yongfook "lifetime deals"`
 
 Others:
 - `from:damengchen Testimonial MRR`
 - `from:arvidkahl FeedbackPanda MRR audience research`
 - `from:dannypostmaa HeadshotPro revenue`
 - `from:dannypostmaa Headlime sold`
+- `from:dvassallo "1 net new customer"`
+- `from:dvassallo "everything is marketing"`
+- `from:IronBrands16 "first $1k"`
+- `from:IronBrands16 "500k ARR"`
+
+## Sarcasm Check Prompt
+
+```text
+Re-check these X posts before I treat them as founder advice.
+
+For each URL:
+1. Read the full thread and replies.
+2. Decide whether it is literal advice, sarcasm, a joke, rage bait, or context-dependent.
+3. If literal, extract the actual transferable tactic.
+4. If not literal, say "discard" and explain why.
+5. Return only tactics that a technical solo founder can safely apply.
+```

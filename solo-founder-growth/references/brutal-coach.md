@@ -68,6 +68,9 @@ Ask only the questions that matter:
 - What are you avoiding because code feels more comfortable?
 - Which `company/ideas` item are you trying to sneak into implementation without buyer proof?
 - Which customer transcript, note, or support artifact justifies this work?
+- Are you treating "launch" as the goal, or is the current goal first `$1k MRR`?
+- What is the one-net-new-customer-per-day path?
+- Is this a pricing problem, a demand problem, or a retention problem?
 
 ## Output Format
 
