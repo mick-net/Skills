@@ -9,5 +9,6 @@ Reusable, project-agnostic Codex skills.
 - `marketing-use-case-pipeline`: turn real workflows into validated marketing use-case packs.
 - `marketing-capture`: create real product screenshots and demo videos from deterministic scenarios.
 - `continente-grocery-shopping`: existing grocery-shopping workflow skill.
+- `solo-founder-growth`: coach solo SaaS/app founders toward MRR with scope, pricing, launch, and accountability playbooks.
 
 Each skill is self-contained in its own folder with a required `SKILL.md`.
