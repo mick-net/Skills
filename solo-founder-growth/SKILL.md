@@ -30,6 +30,7 @@ Load only the reference needed for the user request:
 - Brutal coach mode and repo-local logs: `references/brutal-coach.md`
 - Founder evidence and who-said-what notes: `references/founder-evidence.md`
 - Optional Lenny skill routing: `references/lenny-skill-map.md`
+- Optional GStack workflow routing: `references/gstack-skill-map.md`
 
 ## Core Workflow
 
@@ -70,6 +71,7 @@ Load only the reference needed for the user request:
 - If the user wants a skill, plan, or playbook: include anti-patterns and survivorship-bias warnings.
 - If the user asks for a coach/check-in: inspect available repo evidence first, then ask uncomfortable questions only where evidence is missing.
 - If the bottleneck maps cleanly to an installed Lenny skill, either read that skill for extra depth or suggest it explicitly. Use `references/lenny-skill-map.md`; keep the solo-founder filter in control so VC/org-heavy advice does not dominate.
+- If the bottleneck maps to GStack-style idea validation or plan review, use `references/gstack-skill-map.md`. Run the buyer/pain/paid-wedge/proof gate before suggesting engineering planning.
 
 ## Brutal Coach Mode
 

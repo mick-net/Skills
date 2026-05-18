@@ -10,5 +10,7 @@ Reusable, project-agnostic Codex skills.
 - `marketing-capture`: create real product screenshots and demo videos from deterministic scenarios.
 - `continente-grocery-shopping`: existing grocery-shopping workflow skill.
 - `solo-founder-growth`: coach solo SaaS/app founders toward MRR with scope, pricing, launch, and accountability playbooks.
+- `gstack-office-hours`: pressure-test startup ideas with GStack-inspired YC-style forcing questions.
+- `gstack-plan-ceo-review`: challenge implementation plans with GStack-inspired scope reduction and CEO review.
 
 Each skill is self-contained in its own folder with a required `SKILL.md`.

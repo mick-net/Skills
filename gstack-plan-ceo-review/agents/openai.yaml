@@ -1,0 +1,4 @@
+interface:
+  display_name: "GStack CEO Review"
+  short_description: "Scope challenge and CEO plan review"
+  default_prompt: "Use $gstack-plan-ceo-review to challenge this plan and reduce scope before implementation."

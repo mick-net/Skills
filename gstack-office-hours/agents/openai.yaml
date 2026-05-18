@@ -1,0 +1,4 @@
+interface:
+  display_name: "GStack Office Hours"
+  short_description: "YC-style idea validation questions"
+  default_prompt: "Use $gstack-office-hours to pressure-test this product idea before I build it."
