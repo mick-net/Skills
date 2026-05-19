@@ -22,6 +22,7 @@ Track only what changes decisions:
 
 Monday:
 - Review scorecard.
+- Confirm current stage/MRR and primary bottleneck.
 - Pick one bottleneck.
 - Choose one product action and one distribution action.
 
@@ -48,6 +49,19 @@ Choose 2-4:
 - Ask one customer for a story, testimonial, or intro.
 - Improve one pricing or landing-page claim.
 - Remove one unnecessary step or feature.
+
+## Immediate Action
+
+Every plan should include one action for now, not only the coming week.
+
+Choose one:
+- Message a specific buyer.
+- Publish or improve one public proof asset.
+- Add or test a paid CTA.
+- Remove one onboarding blocker.
+- Watch one user/session.
+- Fix one payment or activation issue.
+- Update `company/product.md` with the current stage/MRR if it is missing.
 
 ## Monthly Review
 

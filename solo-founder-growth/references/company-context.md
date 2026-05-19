@@ -6,7 +6,7 @@ Use this when the skill is operating inside a product repo. The repo's `/company
 
 Expected paths:
 
-- `company/product.md`: product truth. What the app does, buyer, painful job, wedge, current stage, current constraints.
+- `company/product.md`: product truth. What the app does, buyer, painful job, wedge, current stage/MRR, current constraints.
 - `company/product-marketing.md`: positioning, ICP, channels, offers, proof points, launch/content notes.
 - `company/public-surface.md` (optional): current landing page, onboarding, pricing, demo, and CTA audit notes.
 - `company/metrics.md` (optional): lightweight current growth metrics and bottleneck notes.
@@ -30,6 +30,7 @@ Each coaching entry should include:
 
 - Date.
 - Repo path.
+- Current stage/MRR.
 - Product wedge.
 - Evidence inspected.
 - Hard read.
@@ -56,12 +57,27 @@ For example:
 - "The marketing doc names broad ICPs but the customer notes only show traction with Z."
 - "This feature appears in `company/ideas`, but I do not see buyer proof yet."
 
+## Current Stage Contract
+
+`company/product.md` should contain the current stage because the right advice changes by revenue.
+
+Minimum fields:
+
+- `Stage`: `still-building/prelaunch`, `launched/no revenue`, `$0-$1k MRR`, `$1k-$10k MRR`, `$10k-$100k MRR`, or `$100k+ MRR`.
+- `Current MRR`: exact amount, range, or `unknown/not launched`.
+- `Last updated`: date.
+- `Primary bottleneck`: validation, traffic, conversion, activation, payment, retention, expansion, support, or channel repeatability.
+- `Next proof target`: the next customer/revenue/usage/marketing evidence needed.
+
+If MRR is private, store a range. If unknown, say unknown instead of guessing.
+
 ## Context Debt
 
 Call out context debt when `/company` would mislead the next agent.
 
 High-priority context debt:
 - `company/product.md` has an outdated buyer, wedge, or product promise.
+- `company/product.md` does not record current stage/MRR or last updated date.
 - `company/product-marketing.md` does not match the current ICP, channel, offer, or proof.
 - The public website, onboarding flow, pricing page, or demo contradicts `company/product-marketing.md`.
 - The product is launched but there is no current traffic, activation, revenue, search, or churn summary.

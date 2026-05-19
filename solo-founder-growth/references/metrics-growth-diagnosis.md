@@ -4,7 +4,7 @@ Use this when a product is launched, has traffic, has signups, has revenue, or t
 
 ## Principle
 
-Do not ask for every dashboard. Ask for the smallest metric set that explains the bottleneck:
+First identify the current stage/MRR. Then ask for the smallest metric set that explains the bottleneck:
 
 1. Are people finding it?
 2. Do they understand it?
@@ -13,7 +13,9 @@ Do not ask for every dashboard. Ask for the smallest metric set that explains th
 5. Do they stay?
 6. Can the channel repeat?
 
-If the product has no traffic and no customers, do not over-instrument. Push the founder toward selling, launching, outreach, or public proof.
+If the product has no traffic and no customers, do not over-instrument. Push the founder toward the earliest shippable prototype, selling, launching, outreach, or public proof.
+
+This stage logic is based on the founder patterns in this skill: Pieter-style paid validation and small market probes, Jon Yongfook's first-$1k focus, Yasser-style self-serve activation after launch, Tony-style low-maintenance products, and Marc-style proof-heavy public launches.
 
 ## Useful Data Sources
 
@@ -31,7 +33,44 @@ Do not hardcode one vendor. Prefer whatever is already installed and trusted.
 
 ## Stage Diagnosis
 
-### 0 To $1k MRR
+### Still Building / Prelaunch
+
+Look for:
+- Earliest shippable prototype.
+- Landing page or demo.
+- Buyer list or community.
+- Paid wedge, Stripe button, waitlist, pilot ask, or manual service offer.
+- 5-10 real buyer conversations.
+
+Default action:
+- Ship the smallest demo/prototype that makes the painful job obvious.
+- Add a CTA that asks for payment, a pilot, a call, or a concrete commitment.
+- Talk to buyers before adding technical depth.
+
+Avoid:
+- Deep architecture.
+- Complex analytics.
+- Building invisible backend capability before there is a public promise.
+
+### Launched / No Revenue
+
+Look for:
+- Traffic source and volume.
+- Landing-page conversion.
+- Signup or reply rate.
+- First activation.
+- Payment attempt, pilot, or sales-call ask.
+
+Default action:
+- If no traffic: launch harder, do outreach, publish proof, or seed SEO pages.
+- If traffic but no signup: fix public surface, promise, proof, CTA.
+- If signups but no payment: add/tighten paid boundary and manually onboard.
+
+Avoid:
+- Treating "launched" as success.
+- Adding features before someone tries to pay.
+
+### $0 To $1k MRR
 
 Look for:
 - Traffic or audience source.
@@ -44,6 +83,7 @@ Default action:
 - If no traffic: launch, outreach, community, or SEO seed pages.
 - If traffic but no signup: fix positioning, CTA, proof, and demo.
 - If signups but no payment: ask for money, simplify pricing, add trust, or manually onboard.
+- Make first $1k MRR the goal, not launch count or feature count.
 
 Avoid:
 - Complex dashboards.
@@ -99,9 +139,10 @@ If no tool access exists, ask for a pasted summary or export. Do not block the d
 
 Use:
 
-- `MRR Stage`: 0-$1k, $1k-$10k, $10k-$100k, or unclear.
+- `MRR Stage`: still-building/prelaunch, launched/no revenue, $0-$1k, $1k-$10k, $10k-$100k, $100k+, or unclear.
 - `Metric Evidence`: what was inspected and what it suggests.
 - `Likely Bottleneck`: traffic, conversion, activation, payment, retention, expansion, or channel repeatability.
 - `Missing Data`: one or two metrics that would change the decision.
+- `What To Do Now`: the next 30-90 minute action.
 - `Recommended Move`: the smallest action likely to move MRR.
 - `Do Not Do`: dashboard/integration/work that is not needed yet.

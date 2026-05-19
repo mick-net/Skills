@@ -1,6 +1,6 @@
 ---
 name: solo-founder-growth
-description: Solo-founder SaaS and app-builder operating playbook for making more MRR with small teams or no team. Use when the user asks what to build, what not to build, how to simplify scope, validate an MVP, price a product, grow with founder-led marketing, improve a landing page or onboarding flow, pull lightweight growth metrics, launch on X/Product Hunt/communities, use build-in-public, turn features into marketing, move from self-serve to B2B, audit whether they are overbuilding instead of selling, run a critical or brutal solo-founder coaching check-in, maintain repo-local /company founder context and coach logs, gatekeep ideas in company/ideas before implementation, reality-check competitors and alternatives, or create a weekly growth plan inspired by bootstrapped founders like Pieter Levels, Yasser Elsaid, Marc Lou, Tony Dinh, Jon Yongfook, and other indie hackers.
+description: Solo-founder SaaS and app-builder operating playbook for making more MRR with small teams or no team. Use when the user asks what to build, what not to build, how to simplify scope, validate an MVP, price a product, grow with founder-led marketing, improve a landing page or onboarding flow, pull lightweight growth metrics, store or use current MRR/stage, launch on X/Product Hunt/communities, use build-in-public, turn features into marketing, move from self-serve to B2B, audit whether they are overbuilding instead of selling, run a critical or brutal solo-founder coaching check-in, maintain repo-local /company founder context and coach logs, gatekeep ideas in company/ideas before implementation, reality-check competitors and alternatives, or create a weekly growth plan inspired by bootstrapped founders like Pieter Levels, Yasser Elsaid, Marc Lou, Tony Dinh, Jon Yongfook, and other indie hackers.
 ---
 
 # Solo Founder Growth
@@ -9,7 +9,7 @@ Use this skill as a practical operator, not as inspiration content. Optimize for
 
 ## Default Stance
 
-- Start from the user's current product, constraints, audience, time budget, and revenue stage.
+- Start from the user's current product, constraints, audience, time budget, and current stage/MRR.
 - Prefer smaller scope, faster shipping, earlier charging, and closer customer contact.
 - Treat revenue and retention as stronger evidence than likes, followers, waitlists, or compliments.
 - Challenge VC-style advice when it assumes a team, large budget, custom sales process, or long runway.
@@ -41,15 +41,17 @@ Load only the reference needed for the user request:
 
 ## Core Workflow
 
-1. Diagnose stage:
-   - `pre-revenue`: prove a painful job and charge quickly.
-   - `first revenue`: improve activation, positioning, and repeated outreach.
+1. Diagnose stage from `/company`, metrics, Stripe/exported revenue, or user input:
+   - `still-building/prelaunch`: ship the earliest useful prototype, landing page, demo, and paid/commitment CTA.
+   - `launched/no revenue`: get traffic, conversations, signups, and the first payment; avoid deep instrumentation.
+   - `$0-$1k MRR`: make first revenue the goal, not "launch" or more features.
    - `$1k-$10k MRR`: tighten one audience, one channel, one paid offer.
    - `$10k-$100k MRR`: systematize support, content, pricing, and retention.
    - `$100k+ MRR`: add sales, partnerships, compliance, team leverage, or B2B only when pull exists.
 
 2. Run the light evidence gate before major build or strategy recommendations:
    - Who is the buyer?
+   - What is the current stage/MRR, and where is it recorded?
    - What painful job are they doing today?
    - What is the smallest paid wedge or proof action?
    - What customer, marketing, usage, or revenue proof exists?
@@ -75,12 +77,14 @@ Load only the reference needed for the user request:
    - A one-sentence product wedge.
    - A "do now / do later / do not build" scope list.
    - A pricing and free/paid boundary.
-   - A launch or content plan with specific posts and CTAs.
-   - A weekly growth rhythm with metrics and outreach targets.
+   - `What to do now`: the next 30-90 minute action.
+   - `What to do this week`: 3-7 actions with a clear growth target.
+   - A launch or content plan with specific posts and CTAs when distribution is the bottleneck.
 
 ## Decision Rules
 
 - If the user wants to build: reduce to the smallest paid artifact first.
+- If current stage/MRR is unknown inside a repo, call that out and recommend updating `company/product.md` or `company/metrics.md` before giving stage-specific advice.
 - If a build request has clear buyer/value evidence, switch to execution partner mode and build well; do not keep arguing for its own sake.
 - If the user wants marketing: turn product work into proof posts, demos, customer stories, and warm outreach.
 - If the public website, app onboarding, demo, pricing page, or signup flow is unclear, treat that as a growth blocker. Use `references/public-surface-onboarding.md` before recommending more features.
@@ -131,6 +135,8 @@ Escalate to brutal coach mode when the user asks for accountability, asks "what 
 Keep outputs tactical. Prefer:
 
 - `Diagnosis`: the likely bottleneck.
+- `Stage`: current MRR/stage and confidence.
+- `What to do now`: one immediate action.
 - `What to do this week`: 3-7 actions.
 - `What not to build`: explicit scope cuts.
 - `Marketing assets`: posts, launch copy, demos, or outreach.
