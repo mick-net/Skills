@@ -34,6 +34,16 @@ The first screen should answer in seconds:
 4. Why believe this?
 5. What should I do next?
 
+## Above-The-Fold Template
+
+For prelaunch and launched/no-revenue products, force this before more product depth:
+
+- `Headline`: outcome for a specific buyer, not the technical category.
+- `Subhead`: painful current workaround and faster/better result.
+- `Proof`: screenshot, demo, example output, customer language, or founder credibility.
+- `CTA`: pay, book, request pilot, try demo, join waitlist, or reply.
+- `Paid boundary`: visible price, pilot offer, setup fee, report/audit price, or when payment starts.
+
 Fail conditions:
 
 - Headline says what the product is, not what the buyer gets.

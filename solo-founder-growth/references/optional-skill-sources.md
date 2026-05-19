@@ -94,7 +94,7 @@ Example install patterns, depending on agent/runtime:
 - For other agents, copy only the needed skill folder or `SKILL.md` into the agent's skills directory.
 
 Solo-founder usage:
-- Use mostly for `still-building/prelaunch`, `launched/no revenue`, and `$0-$1k MRR`.
+- Use mostly for `still-building/prelaunch`, `launched/no revenue`, and `first paying customers / $1-$1k MRR`.
 - `find-community`: no reachable community/channel.
 - `validate-idea`: idea needs sell-before-build validation.
 - `mvp`: scope must shrink to manual, no-code, or weekend-sized delivery.

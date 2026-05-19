@@ -37,6 +37,8 @@ A solo-founder product needs at least one credible edge:
 
 If none are true, recommend validation before building.
 
+Competitor research must end in a decision: reposition, narrow, validate, build, or drop. Do not leave the user with a comparison table that does not change the next action.
+
 ## Search Queries
 
 Use queries like:

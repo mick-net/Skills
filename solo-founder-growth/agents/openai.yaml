@@ -1,4 +1,4 @@
 interface:
   display_name: "Solo Founder Growth"
   short_description: "MRR-focused solo founder playbooks"
-  default_prompt: "Use $solo-founder-growth to simplify my product scope and design a solo-founder growth plan."
+  default_prompt: "Use $solo-founder-growth to audit my current stage, cut scope, and give me the next MRR-moving action."

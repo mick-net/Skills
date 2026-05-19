@@ -6,7 +6,7 @@ Use this when the skill is operating inside a product repo. The repo's `/company
 
 Expected paths:
 
-- `company/product.md`: product truth. What the app does, buyer, painful job, wedge, current stage/MRR, current constraints.
+- `company/product.md`: product truth. What the app does, buyer, painful job, wedge, current stage/MRR, current proof level, current constraints.
 - `company/product-marketing.md`: positioning, ICP, channels, offers, proof points, launch/content notes.
 - `company/community.md` (optional): reachable communities/channels, repeated pains, and prospect lists.
 - `company/public-surface.md` (optional): current landing page, onboarding, pricing, demo, and CTA audit notes.
@@ -25,7 +25,7 @@ Default log path:
 
 Append entries. Do not overwrite prior coaching history.
 
-Use `scripts/log_coach_session.py --repo <repo> --summary <text-or-file>` to write entries.
+Use `scripts/log_coach_session.py --repo <repo> --summary <text-or-file>` to write entries during explicit coach/check-in sessions. Do not log by default for ordinary product or coding requests.
 
 Each coaching entry should include:
 
@@ -64,8 +64,9 @@ For example:
 
 Minimum fields:
 
-- `Stage`: `still-building/prelaunch`, `launched/no revenue`, `$0-$1k MRR`, `$1k-$10k MRR`, `$10k-$100k MRR`, or `$100k+ MRR`.
+- `Stage`: `still-building/prelaunch`, `launched/no revenue`, `first paying customers / $1-$1k MRR`, `$1k-$10k MRR`, `$10k-$100k MRR`, or `$100k+ MRR`.
 - `Current MRR`: exact amount, range, or `unknown/not launched`.
+- `Proof level`: opinion, waitlist, reply, call, repeated complaint/workaround, trial activation, manual pilot, payment, repeat payment, or retention.
 - `Last updated`: date.
 - `Primary bottleneck`: validation, traffic, conversion, activation, payment, retention, expansion, support, or channel repeatability.
 - `Next proof target`: the next customer/revenue/usage/marketing evidence needed.
@@ -85,7 +86,7 @@ High-priority context debt:
 - The public website, onboarding flow, pricing page, or demo contradicts `company/product-marketing.md`.
 - The product is launched but there is no current traffic, activation, revenue, search, or churn summary.
 - Customer conversations happened but are not stored under `company/customers/`.
-- `company/ideas/` contains implementation-ready-looking ideas without buyer/proof notes.
+- `company/ideas/` contains implementation-ready-looking ideas without status, buyer/proof notes, or build-readiness fields.
 - The coach log has commitments but no follow-up status.
 
 Output a short `Company Context Updates` section:
@@ -164,25 +165,33 @@ Do not let this become abstract market research. The file should help the founde
 
 Treat `company/ideas/` as intake, not roadmap.
 
-Before recommending implementation, require:
+Use these statuses:
+
+- `raw`: captured idea, no proof yet.
+- `validating`: buyer/channel/proof work in progress.
+- `build-ready`: passed the build-readiness fields below.
+- `shipped`: implemented and exposed to users.
+- `killed`: explicitly dropped with reason.
+
+To promote an idea to `build-ready`, require:
 
 1. Buyer: who specifically wants this?
-2. Reachable community/channel: where can the founder contact them this week?
-3. Painful job: what are they doing today?
+2. Current workaround: what are they doing today?
+3. Reachable community/channel: where can the founder contact them this week?
 4. Paid wedge: what is the smallest version worth paying for?
-5. Proof: customer note, transcript, support issue, search demand, repeated request, payment, or pilot.
-6. MRR path: how this changes conversion, ARPA, retention, activation, or distribution.
-7. Scope: what can be manual, mocked, or deferred?
+5. Proof artifact: customer note, transcript, support issue, search demand, repeated request, payment, pilot, or usage signal.
+6. MRR mechanism: how this changes conversion, ARPA, retention, activation, distribution, support load, or expansion.
+7. Scope cut: what can be manual, mocked, deferred, or explicitly not built.
 
 If evidence is missing, recommend validation work instead of implementation.
 
 Promotion rule:
-- `company/ideas/` item -> validation task -> customer/revenue/market proof -> scoped implementation.
+- `raw` -> `validating` -> `build-ready` -> `shipped` or `killed`.
 - Do not skip straight from idea to build unless the evidence gate passes.
 
 ## Update Behavior
 
-When the user asks for coaching:
+When the user asks for coaching/check-in:
 
 - Log the coaching session by default when inside a repo.
 - Recommend specific `/company` updates when stale context would mislead future agents.

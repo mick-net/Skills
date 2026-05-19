@@ -1,6 +1,6 @@
 # Community Reachability
 
-Use this for `still-building/prelaunch`, `launched/no revenue`, and `$0-$1k MRR` work. A buyer persona is not enough. The founder needs a reachable community or channel where real prospects already gather.
+Use this for `still-building/prelaunch`, `launched/no revenue`, and `first paying customers / $1-$1k MRR` work. A buyer persona is not enough. The founder needs a reachable community or channel where real prospects already gather.
 
 ## Gate
 
@@ -24,7 +24,7 @@ If the answer is no, the next action is community/customer research, not product
 
 ## Optional Deeper Skills
 
-Use these only for prelaunch or `$0-$1k MRR` problems:
+Use these only for prelaunch, launched/no-revenue, or first-paying-customer problems:
 
 - `find-community`: when the founder does not know which community/channel to start from.
 - `validate-idea`: when the idea needs sell-before-build validation.

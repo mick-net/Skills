@@ -41,6 +41,8 @@ Friday:
 
 ## Daily Founder Actions
 
+Before coding each day, complete at least one customer, revenue, or marketing action unless the current coding task directly fixes activation, payment, retention, support load, or a customer-requested blocker.
+
 Choose 2-4:
 - Message 5 warm leads.
 - Watch one user try the product.

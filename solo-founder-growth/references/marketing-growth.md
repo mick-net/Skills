@@ -8,6 +8,14 @@ Marketing is not separate from building. For a solo founder, every product decis
 
 Internal positioning does not count if buyers cannot see it. If the landing page, demo, pricing page, or onboarding flow does not communicate the promise clearly, run `public-surface-onboarding.md` before planning more channels.
 
+Before growth loops, force first-customer pressure:
+- 10 reachable prospects.
+- 5 direct messages.
+- 3 conversation asks.
+- 1 paid/manual offer.
+
+Do not plan clever loops while the founder has no repeatable first-customer motion.
+
 ## Growth Loops To Prefer
 
 ### Feature Announcement Loop

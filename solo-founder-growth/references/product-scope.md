@@ -15,6 +15,22 @@ Build only when the feature passes at least one:
 
 If a feature does not pass one, cut it.
 
+## Early-Stage Hard Stop
+
+For `still-building/prelaunch`, `launched/no revenue`, and `first paying customers / $1-$1k MRR`, do not recommend multi-day implementation unless these are defined:
+
+- One buyer.
+- One painful current workaround.
+- One reachable channel or 10 prospects.
+- One public promise or demo.
+- One paid ask: checkout, invoice, pilot, paid setup, paid report, or manual service.
+
+If any are missing, recommend validation, outreach, public-surface work, or manual fulfillment before code.
+
+## Manual First
+
+When the founder asks for automation, propose the manual or concierge version first unless repeated usage, support load, or paid demand already proves the workflow.
+
 ## MVP Shape
 
 Prefer:

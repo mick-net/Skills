@@ -15,8 +15,6 @@ First identify the current stage/MRR. Then ask for the smallest metric set that 
 
 If the product has no traffic and no customers, do not over-instrument. Push the founder toward the earliest shippable prototype, selling, launching, outreach, or public proof.
 
-This stage logic is based on the founder patterns in this skill: Pieter-style paid validation and small market probes, Jon Yongfook's first-$1k focus, Yasser-style self-serve activation after launch, Tony-style low-maintenance products, and Marc-style proof-heavy public launches.
-
 ## Useful Data Sources
 
 Use whatever the environment can access. In Codex, this may be skills/plugins. In Claude Code, Cursor, or other agents, this may be MCP servers, API docs, CLI tools, exports, screenshots, CSVs, or pasted metrics.
@@ -71,7 +69,7 @@ Avoid:
 - Treating "launched" as success.
 - Adding features before someone tries to pay.
 
-### $0 To $1k MRR
+### First Paying Customers / $1 To $1k MRR
 
 Look for:
 - Traffic or audience source.
@@ -104,6 +102,8 @@ Find the bottleneck:
 Default action:
 - Fix the narrowest leaking step.
 - Keep one main channel and one main buyer until growth repeats.
+- Talk to every churned, non-activated, and high-intent user before adding features.
+- Check whether pricing is too low for the support burden.
 
 ### $10k To $100k MRR
 
@@ -141,10 +141,10 @@ If no tool access exists, ask for a pasted summary or export. Do not block the d
 
 Use:
 
-- `MRR Stage`: still-building/prelaunch, launched/no revenue, $0-$1k, $1k-$10k, $10k-$100k, $100k+, or unclear.
+- `MRR Stage`: still-building/prelaunch, launched/no revenue, first paying customers / $1-$1k, $1k-$10k, $10k-$100k, $100k+, or unclear.
 - `Metric Evidence`: what was inspected and what it suggests.
 - `Likely Bottleneck`: traffic, conversion, activation, payment, retention, expansion, or channel repeatability.
-- `Missing Data`: one or two metrics that would change the decision.
+- `Missing Data`: at most 1-2 metrics that would change the decision.
 - `What To Do Now`: the next 30-90 minute action.
 - `Recommended Move`: the smallest action likely to move MRR.
 - `Do Not Do`: dashboard/integration/work that is not needed yet.

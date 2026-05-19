@@ -32,55 +32,48 @@ Use local repo evidence when available:
 
 Respect dirty worktrees. Do not modify product code unless the user asks.
 
-## The Audit
+## Behavior-Change Protocol
 
-Classify recent work:
+Classify recent work from the last 7-14 days:
 
 - `Revenue-moving`: pricing, checkout, activation, demos, onboarding, retention, user-requested features, sales enablement.
 - `Demand-creating`: launch posts, content, SEO pages, integrations, community answers, warm outbound, customer stories.
 - `Learning`: customer interviews, support synthesis, analytics review, churn calls, user tests.
 - `Technical comfort`: architecture, refactors, internal tooling, speculative agents, framework churn, non-user-visible polish.
 
-Then answer:
+Estimate a visible ratio. Example:
 
-- What does the product actually do in one sentence?
-- Who pays for it?
-- What painful job does it replace?
-- Where is proof documented?
-- What did the founder do this week to create demand?
-- What did the founder do this week to talk to buyers?
-- What did the founder do this week to improve payment, activation, or retention?
-- What technical work can be postponed until revenue proof exists?
+`Technical Comfort Ratio: 9 code commits, 0 customer notes, 0 public proof assets, 0 pricing/payment changes. This is avoidance.`
 
-## Brutal Questions
+Then enforce a behavior change:
 
-Ask only the questions that matter:
+- `Avoidance Pattern`: what the founder is doing instead of proving demand.
+- `Revenue Blocker`: the single blocker to MRR right now.
+- `No-Code Constraint`: what cannot be coded until customer/revenue action is done.
+- `Customer Action Before More Code`: exact outreach, call, paid CTA, manual fulfillment, or churn/support action.
+- `By Friday Commitment`: specific observable commitment.
 
-- What changed this week that could plausibly increase MRR?
+Use questions sparingly. Ask only what blocks the next action.
+
+High-value questions:
 - Which specific buyer did you talk to, and where are the notes?
-- If this product disappeared tomorrow, who would complain by name?
-- Where is the Stripe button, paid plan, paid pilot, or invoice?
-- What is the shortest path from visitor to value?
-- Why are you building this feature before proving someone wants the current product?
-- What marketing asset did this week's work create?
-- Which channel are you committing to for 30 days?
-- What is the exact CTA for the next launch post?
-- What are you avoiding because code feels more comfortable?
-- Which `company/ideas` item are you trying to sneak into implementation without buyer proof?
-- Which customer transcript, note, or support artifact justifies this work?
-- Are you treating "launch" as the goal, or is the current goal first `$1k MRR`?
-- What is the one-net-new-customer-per-day path?
-- Is this a pricing problem, a demand problem, or a retention problem?
+- Where is the paid CTA, pilot offer, invoice, checkout link, or manual paid service?
+- Which 10 reachable people/accounts will you contact this week?
+- What customer/revenue evidence justifies this `company/ideas` item becoming build-ready?
+- What changed this week that could plausibly increase MRR?
 
 ## Output Format
 
 Use:
 
-- `Hard Read`: 3-6 blunt bullets grounded in evidence.
+- `Hard Read`: 2-4 blunt bullets grounded in evidence.
 - `Evidence`: files, commits, docs, or missing artifacts inspected.
-- `Revenue Bottleneck`: one bottleneck only.
-- `Stop Doing`: specific technical or product work to pause.
-- `By Next Week`: 3-5 actions, including at least one customer/revenue action.
+- `Technical Comfort Ratio`: code/product vs customer/learning vs marketing/sales vs revenue/pricing.
+- `Avoidance Pattern`: what the founder is hiding in.
+- `Revenue Blocker`: one bottleneck only.
+- `No-Code Constraint`: work paused until proof exists.
+- `Customer Action Before More Code`: one uncomfortable customer/revenue action.
+- `By Friday Commitment`: one measurable commitment.
 - `Log Entry`: summarize what should be appended to the repo coaching log.
 - `Company Context Updates`: call out stale or missing `/company` files that should be updated before or after the work.
 
