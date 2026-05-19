@@ -38,13 +38,14 @@ Do not hardcode one vendor. Prefer whatever is already installed and trusted.
 Look for:
 - Earliest shippable prototype.
 - Landing page or demo.
-- Buyer list or community.
+- Buyer list and reachable community/channel.
 - Paid wedge, Stripe button, waitlist, pilot ask, or manual service offer.
 - 5-10 real buyer conversations.
 
 Default action:
 - Ship the smallest demo/prototype that makes the painful job obvious.
 - Add a CTA that asks for payment, a pilot, a call, or a concrete commitment.
+- Use `community-reachability.md` if the founder cannot name 10 reachable prospects.
 - Talk to buyers before adding technical depth.
 
 Avoid:
@@ -74,6 +75,7 @@ Avoid:
 
 Look for:
 - Traffic or audience source.
+- Reachable community/channel.
 - Number of real buyer conversations.
 - Landing page visits and signups.
 - Payments or serious purchase intent.

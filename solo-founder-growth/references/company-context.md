@@ -8,6 +8,7 @@ Expected paths:
 
 - `company/product.md`: product truth. What the app does, buyer, painful job, wedge, current stage/MRR, current constraints.
 - `company/product-marketing.md`: positioning, ICP, channels, offers, proof points, launch/content notes.
+- `company/community.md` (optional): reachable communities/channels, repeated pains, and prospect lists.
 - `company/public-surface.md` (optional): current landing page, onboarding, pricing, demo, and CTA audit notes.
 - `company/metrics.md` (optional): lightweight current growth metrics and bottleneck notes.
 - `company/customers/`: meeting transcripts, interview notes, support summaries, churn notes, testimonials.
@@ -68,6 +69,7 @@ Minimum fields:
 - `Last updated`: date.
 - `Primary bottleneck`: validation, traffic, conversion, activation, payment, retention, expansion, support, or channel repeatability.
 - `Next proof target`: the next customer/revenue/usage/marketing evidence needed.
+- `Reachable community/channel`: where the founder can reach buyers this week.
 
 If MRR is private, store a range. If unknown, say unknown instead of guessing.
 
@@ -78,6 +80,7 @@ Call out context debt when `/company` would mislead the next agent.
 High-priority context debt:
 - `company/product.md` has an outdated buyer, wedge, or product promise.
 - `company/product.md` does not record current stage/MRR or last updated date.
+- Early-stage products have no recorded reachable community/channel.
 - `company/product-marketing.md` does not match the current ICP, channel, offer, or proof.
 - The public website, onboarding flow, pricing page, or demo contradicts `company/product-marketing.md`.
 - The product is launched but there is no current traffic, activation, revenue, search, or churn summary.
@@ -142,6 +145,21 @@ Useful sections:
 
 Keep it concise. Do not create a metrics file just because a product exists; create it when the metric snapshot changes what to build, sell, fix, or cut.
 
+## Community Evidence
+
+Use `company/community.md` for early-stage or new-market work when reachability is the bottleneck.
+
+Useful sections:
+
+- Community/channel name.
+- Why the founder has access or credibility.
+- Where members gather.
+- Repeated complaints or workarounds.
+- 10 reachable prospects/accounts.
+- Outreach status and replies.
+
+Do not let this become abstract market research. The file should help the founder contact real people.
+
 ## Ideas Gatekeeping
 
 Treat `company/ideas/` as intake, not roadmap.
@@ -149,11 +167,12 @@ Treat `company/ideas/` as intake, not roadmap.
 Before recommending implementation, require:
 
 1. Buyer: who specifically wants this?
-2. Painful job: what are they doing today?
-3. Paid wedge: what is the smallest version worth paying for?
-4. Proof: customer note, transcript, support issue, search demand, repeated request, payment, or pilot.
-5. MRR path: how this changes conversion, ARPA, retention, activation, or distribution.
-6. Scope: what can be manual, mocked, or deferred?
+2. Reachable community/channel: where can the founder contact them this week?
+3. Painful job: what are they doing today?
+4. Paid wedge: what is the smallest version worth paying for?
+5. Proof: customer note, transcript, support issue, search demand, repeated request, payment, or pilot.
+6. MRR path: how this changes conversion, ARPA, retention, activation, or distribution.
+7. Scope: what can be manual, mocked, or deferred?
 
 If evidence is missing, recommend validation work instead of implementation.
 

@@ -1,6 +1,6 @@
 ---
 name: solo-founder-growth
-description: Solo-founder SaaS and app-builder operating playbook for making more MRR with small teams or no team. Use when the user asks what to build, what not to build, how to simplify scope, validate an MVP, price a product, grow with founder-led marketing, improve a landing page or onboarding flow, pull lightweight growth metrics, store or use current MRR/stage, launch on X/Product Hunt/communities, use build-in-public, turn features into marketing, move from self-serve to B2B, audit whether they are overbuilding instead of selling, run a critical or brutal solo-founder coaching check-in, maintain repo-local /company founder context and coach logs, gatekeep ideas in company/ideas before implementation, reality-check competitors and alternatives, or create a weekly growth plan inspired by bootstrapped founders like Pieter Levels, Yasser Elsaid, Marc Lou, Tony Dinh, Jon Yongfook, and other indie hackers.
+description: Solo-founder SaaS and app-builder operating playbook for making more MRR with small teams or no team. Use when the user asks what to build, what not to build, how to simplify scope, validate an MVP, price a product, grow with founder-led marketing, improve a landing page or onboarding flow, pull lightweight growth metrics, store or use current MRR/stage, identify reachable communities/channels, launch on X/Product Hunt/communities, use build-in-public, turn features into marketing, move from self-serve to B2B, audit whether they are overbuilding instead of selling, run a critical or brutal solo-founder coaching check-in, maintain repo-local /company founder context and coach logs, gatekeep ideas in company/ideas before implementation, reality-check competitors and alternatives, or create a weekly growth plan inspired by bootstrapped founders like Pieter Levels, Yasser Elsaid, Marc Lou, Tony Dinh, Jon Yongfook, and other indie hackers.
 ---
 
 # Solo Founder Growth
@@ -23,6 +23,7 @@ Load only the reference needed for the user request:
 
 - Founder archetypes and patterns: `references/founder-patterns.md`
 - Product scope, MVP, and what to build: `references/product-scope.md`
+- Community reachability and early channels: `references/community-reachability.md`
 - Marketing, launch, and growth loops: `references/marketing-growth.md`
 - Public surface, landing page, and onboarding audit: `references/public-surface-onboarding.md`
 - Metrics and growth diagnosis: `references/metrics-growth-diagnosis.md`
@@ -52,6 +53,7 @@ Load only the reference needed for the user request:
 2. Run the light evidence gate before major build or strategy recommendations:
    - Who is the buyer?
    - What is the current stage/MRR, and where is it recorded?
+   - What reachable community or channel contains this buyer?
    - What painful job are they doing today?
    - What is the smallest paid wedge or proof action?
    - What customer, marketing, usage, or revenue proof exists?
@@ -84,6 +86,7 @@ Load only the reference needed for the user request:
 ## Decision Rules
 
 - If the user wants to build: reduce to the smallest paid artifact first.
+- If the stage is `still-building/prelaunch` or `$0-$1k MRR`, require a reachable community/channel before treating an idea as build-ready. Use `references/community-reachability.md`.
 - If current stage/MRR is unknown inside a repo, call that out and recommend updating `company/product.md` or `company/metrics.md` before giving stage-specific advice.
 - If a build request has clear buyer/value evidence, switch to execution partner mode and build well; do not keep arguing for its own sake.
 - If the user wants marketing: turn product work into proof posts, demos, customer stories, and warm outreach.
