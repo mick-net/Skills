@@ -33,6 +33,8 @@ Use these only for prelaunch or `$0-$1k MRR` problems:
 
 Do not load these for `$10k+ MRR` work unless the product is entering a new market from scratch.
 
+If these skills are missing, continue with this reference. For source/install pointers, see `optional-skill-sources.md`.
+
 ## Output
 
 Use:

@@ -2,6 +2,8 @@
 
 Use this when a solo-founder task could benefit from GStack-style workflows. GStack is an execution/planning accelerator, not the founder strategy layer. Prefer the embedded workflows in `references/gstack-playbooks.md`; use external `gstack-*` skills only when the user explicitly invokes them or wants that workflow isolated.
 
+If these skills are missing, keep using the embedded playbooks. For source/install pointers, see `references/optional-skill-sources.md`.
+
 ## Gate Before GStack
 
 Use GStack-style workflows only after answering:

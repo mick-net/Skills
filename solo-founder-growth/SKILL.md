@@ -38,6 +38,7 @@ Load only the reference needed for the user request:
 - Embedded GStack-style idea and CEO review playbooks: `references/gstack-playbooks.md`
 - Optional external Lenny skill routing: `references/lenny-skill-map.md`
 - Optional external GStack workflow routing: `references/gstack-skill-map.md`
+- Optional external skill sources and install map: `references/optional-skill-sources.md`
 - Repo-local company context and idea gatekeeping: `references/company-context.md`
 
 ## Core Workflow

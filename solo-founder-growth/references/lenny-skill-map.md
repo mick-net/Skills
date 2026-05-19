@@ -2,6 +2,8 @@
 
 Use this when a solo-founder growth task would benefit from Lenny-style depth. Prefer the embedded solo-founder playbooks in `references/lenny-solo-playbooks.md`; installed `lenny-*` skills are optional deeper modules, not the operating system.
 
+If these skills are missing, keep using the embedded playbooks. For source/install pointers, see `references/optional-skill-sources.md`.
+
 ## Rule
 
 Read or suggest an external Lenny skill only when the bottleneck is specific and the embedded playbook is not enough. Do not load multiple Lenny skills by default. If the user is overwhelmed, suggest one skill and one next action.
