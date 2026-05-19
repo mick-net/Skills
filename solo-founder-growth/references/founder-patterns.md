@@ -16,10 +16,16 @@ Use this when the user asks to learn from Pieter Levels, Yasser Elsaid, Marc Lou
 
 ## Pieter Levels
 
+Evidence note:
+- These Pieter Levels patterns are distilled from his public posts, product history, MAKE, and the Lex Fridman interview. For the deeper source material, read Pieter's paid book `MAKE`: https://readmake.com/ and the Lex transcript: https://lexfridman.com/pieter-levels-transcript/
+
 Mechanism:
 - Many cheap market probes, then double down on winners.
+- Start with a micro-niche before trying to become a platform.
 - Paid validation from day one.
+- Use paid preorder or commitment as validation before building.
 - Very simple, familiar tech stack to compress shipping cycles.
+- Use boring tech and respect the existing codebase; no rewrite theater unless it moves revenue, activation, retention, or support.
 - Public building, open revenue, and strong personal voice as distribution.
 - Niche identity first: digital nomads, remote workers, AI headshots.
 - Products create searchable pages, public data, screenshots, or stories.
@@ -30,7 +36,7 @@ Copy:
 - Create SEO/data loops where the product inventory becomes marketing.
 
 Do not copy blindly:
-- Do not copy "12 startups" as theater; copy low-cost market sampling.
+- Do not use "12 startups" or many products as avoidance once one product shows pull; use it for learning and market sampling.
 - Do not confuse rough MVP with broken trust, weak privacy, or bad support.
 - Do not use edgy public voice in markets where procurement or trust matters.
 
@@ -74,9 +80,13 @@ Do not copy blindly:
 
 ## Tony Dinh
 
+Evidence note:
+- These Tony Dinh patterns are distilled from his public posts, product history, and public product pages. For the deeper story, examples, screenshots, and original framing, read Tony's paid book `My Indie Book`: https://www.myindiebook.com/
+
 Mechanism:
 - Build personal-pain products inside markets with existing urgency.
 - Keep architecture low-maintenance: static apps, desktop apps, local storage, BYO API keys.
+- Treat a complete product as a reachable page, usable core value, and payment path.
 - Use one-time pricing where costs are near zero.
 - Turn feature announcements into ongoing marketing.
 - Convert personal-user traction into B2B plans only when teams naturally need it.
@@ -92,12 +102,38 @@ Do not copy blindly:
 - Do not depend on a single platform API without exit options.
 - Do not treat followers as customers.
 
+## Danny Postma / HeadshotPro
+
+Evidence note:
+- These Danny Postma patterns are distilled from his public posts, product history, and the user's paid SEO course transcripts. Use them as operating principles; read the original course for the full SEO workflow and examples.
+
+Mechanism:
+- Demand-driven product development: use keyword research before building to check whether people already search for the job, output, or problem.
+- Pick niches where search demand, commercial value, and competition create a reachable wedge.
+- Match search intent before creating the asset: landing page, free tool, comparison page, guide, example hub, or integration page.
+- Use free tools as technical-founder acquisition assets when they solve a searched job and lead naturally to the paid product.
+- Use pSEO only when there are many real long-tail intents and enough unique page-level value.
+- Build authority after the page is worth linking to; backlinks amplify trust, they do not fix weak product or unclear positioning.
+
+Copy:
+- Validate search demand before spending days on a product or SEO asset.
+- Inspect competitor top pages and content gaps for concrete page opportunities.
+- Make one page own one primary search job to avoid cannibalization.
+- Use targeted backlink outreach only when there is a rational reason for the target site to mention you.
+
+Do not copy blindly:
+- Do not publish thin AI content, duplicated pSEO pages, or keyword-stuffed pages.
+- Do not start backlink campaigns before the product/page is useful, credible, and conversion-ready.
+- Do not buy cheap backlink packages, spam forums, over-optimize anchor text, build private blog networks, or redirect acquired domains without topical/backlink due diligence.
+- Do not mistake search volume for payment proof; search demand is an evidence signal, not retention.
+
 ## Comparison
 
 - Pieter: market sampling, public proof, SEO/data loops.
 - Yasser: platform timing, self-serve activation, PLG to sales.
 - Marc: launch theater, audience-product portfolio, verified proof.
 - Tony: low-maintenance architecture, feature-led marketing, B2B expansion after pull.
+- Danny: search-demand validation, free tools, pSEO with real page value, backlink authority after product quality.
 
 Best synthesis:
 Build a tiny useful wedge, charge early, publish proof, keep operations light, and let paying users tell you when to expand.
@@ -126,4 +162,3 @@ Do not copy blindly:
 
 - Damon Chen / Testimonial: customer conversations and proof collection as the product. Copy the daily customer-contact habit.
 - Arvid Kahl / FeedbackPanda: embed in a specific community and remove repeated unpaid work. Copy the audience-research discipline.
-- Danny Postma / HeadshotPro/Headlime: platform timing plus a clear paid output. Copy the "sell the result, not the AI" framing.

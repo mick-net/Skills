@@ -6,9 +6,11 @@ Use this for pricing decisions, free/paid boundaries, lifetime vs subscription, 
 
 - Charge earlier than feels comfortable.
 - For pre-revenue products, define a first paid boundary before more product depth: paid pilot, paid setup, one-time report/audit, invoice, checkout link, or subscription entry.
+- Use the fastest credible payment workaround before custom billing.
 - Prefer simple tiers over custom complexity.
 - Price against the value and alternative, not engineering time.
 - Use payment as validation; waitlists and compliments are weaker signals.
+- Treat refund reasons and pricing objections as product evidence, not just support cleanup.
 - Raise prices as confidence, value, and trust increase.
 
 ## Free Boundary

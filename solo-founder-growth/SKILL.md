@@ -36,10 +36,12 @@ For every major recommendation, state:
 - Whether build is allowed.
 
 Payment and retention beat compliments, likes, followers, waitlists, and hypothetical intent.
+Paid early-bird or lifetime purchases are stronger than waitlists, but weaker than repeat payment or retention.
 
 ## Hard Gates
 
 - No large implementation plan without a paid CTA, pilot offer, invoice, checkout link, or manual paid service.
+- Do not call something a complete product unless a buyer can understand the promise, use the core value, and pay or commit.
 - No early-stage build recommendation without 10 reachable prospects or a concrete channel to find them this week.
 - For automation requests, propose the manual/concierge version first unless repeated usage, support load, or paid demand already proves the workflow.
 - For `company/ideas`, require build-ready status before implementation.
@@ -95,6 +97,7 @@ Load only what matches the bottleneck:
 - Operating cadence: `references/operating-rhythm.md`
 - Brutal coach protocol: `references/brutal-coach.md`
 - Market reality and competitors: `references/market-reality-check.md`
+- Search demand and SEO-led validation: `references/seo-demand-validation.md`
 - Repo-local `/company` context and ideas: `references/company-context.md`
 - Embedded solo-founder playbooks: `references/lenny-solo-playbooks.md`
 - Embedded idea/scope pressure tests: `references/gstack-playbooks.md`

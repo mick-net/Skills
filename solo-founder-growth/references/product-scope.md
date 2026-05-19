@@ -33,6 +33,8 @@ When the founder asks for automation, propose the manual or concierge version fi
 
 ## MVP Shape
 
+A useful MVP is a finished simpler product, not a half-built version of the full vision.
+
 Prefer:
 - One specific audience.
 - One painful job.
