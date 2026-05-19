@@ -54,6 +54,23 @@ For example:
 - "The marketing doc names broad ICPs but the customer notes only show traction with Z."
 - "This feature appears in `company/ideas`, but I do not see buyer proof yet."
 
+## Context Debt
+
+Call out context debt when `/company` would mislead the next agent.
+
+High-priority context debt:
+- `company/product.md` has an outdated buyer, wedge, or product promise.
+- `company/product-marketing.md` does not match the current ICP, channel, offer, or proof.
+- Customer conversations happened but are not stored under `company/customers/`.
+- `company/ideas/` contains implementation-ready-looking ideas without buyer/proof notes.
+- The coach log has commitments but no follow-up status.
+
+Output a short `Company Context Updates` section:
+
+- `Update now`: files that should change before more product work.
+- `Append later`: notes that can be added after the current task.
+- `Missing evidence`: customer/marketing/revenue artifacts the repo lacks.
+
 ## Customer Evidence
 
 Customer transcripts and notes belong in `company/customers/`.
@@ -88,12 +105,17 @@ Before recommending implementation, require:
 
 If evidence is missing, recommend validation work instead of implementation.
 
+Promotion rule:
+- `company/ideas/` item -> validation task -> customer/revenue/market proof -> scoped implementation.
+- Do not skip straight from idea to build unless the evidence gate passes.
+
 ## Update Behavior
 
 When the user asks for coaching:
 
 - Log the coaching session by default when inside a repo.
 - Recommend specific `/company` updates when stale context would mislead future agents.
+- If context is stale and the user asked for a plan, include the exact proposed `/company` update in the answer.
 - If the user asks to update docs, keep edits concise and append dated notes where possible.
 - Do not rewrite customer transcripts.
 - Do not promote an idea to implementation without passing the gate.

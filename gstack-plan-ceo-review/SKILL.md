@@ -19,6 +19,15 @@ Before using GStack-style planning, answer:
 
 If the answers are weak, stop and recommend validation before implementation.
 
+When inside a repo, inspect `/company` context before reviewing:
+- `company/product.md`
+- `company/product-marketing.md`
+- `company/ideas/`
+- `company/customers/`
+- `company/coach/solo-founder-growth-coach.md`
+
+If `/company` contradicts the plan, call that out before reviewing architecture.
+
 ## Default Mode
 
 For solo founders, default to `SCOPE_REDUCTION`.
@@ -61,6 +70,7 @@ Use:
 - `Recommendation`: one chosen path.
 - `Out Of Scope`: explicit cuts.
 - `Next Check`: what evidence decides whether to expand later.
+- `Company Update`: what should be appended or corrected in `/company`.
 
 ## When To Hand Off
 

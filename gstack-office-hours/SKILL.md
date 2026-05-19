@@ -17,6 +17,15 @@ Startup mode is direct:
 - Challenge vague personas, vague pain, and future-tense buyer claims.
 - End with a build / do-not-build / validate-first recommendation.
 
+When inside a repo, inspect `/company` context before asking questions:
+- `company/product.md`
+- `company/product-marketing.md`
+- `company/ideas/`
+- `company/customers/`
+- `company/coach/solo-founder-growth-coach.md`
+
+If the idea comes from `company/ideas`, treat it as intake, not roadmap.
+
 ## Six Forcing Questions
 
 Ask or answer these with the evidence available:
@@ -54,6 +63,7 @@ Use:
 - `Smallest Paid Wedge`: what to sell or demo this week.
 - `Validation Task`: the next 1-3 actions before more building.
 - `Decision`: build now, validate first, cut scope, or drop.
+- `Company Update`: what should be appended to `/company`.
 
 ## When To Hand Off
 

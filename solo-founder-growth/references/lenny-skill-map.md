@@ -1,10 +1,10 @@
 # Lenny Skill Map
 
-Use this when a solo-founder growth task would benefit from one installed `lenny-*` skill. The `solo-founder-growth` skill stays in charge; Lenny skills are optional depth modules, not the operating system.
+Use this when a solo-founder growth task would benefit from Lenny-style depth. Prefer the embedded solo-founder playbooks in `references/lenny-solo-playbooks.md`; installed `lenny-*` skills are optional deeper modules, not the operating system.
 
 ## Rule
 
-Read or suggest a Lenny skill only when the bottleneck is specific. Do not load multiple Lenny skills by default. If the user is overwhelmed, suggest one skill and one next action.
+Read or suggest an external Lenny skill only when the bottleneck is specific and the embedded playbook is not enough. Do not load multiple Lenny skills by default. If the user is overwhelmed, suggest one skill and one next action.
 
 Keep this filter:
 
@@ -192,11 +192,11 @@ Use at most 2-3 skills together:
 
 Use direct phrasing:
 
-`This is now a founder-sales problem. I recommend using $lenny-founder-sales next, but with the solo-founder filter: one buyer, one painful job, one paid ask.`
+`This is now a founder-sales problem. I will use the embedded founder-sales playbook first. If we need deeper outreach/call structure, use $lenny-founder-sales next.`
 
 Or:
 
-`I am going to read $lenny-user-onboarding because the bottleneck is activation, then I will translate it into a solo-founder action plan.`
+`The bottleneck is activation. I will use the embedded onboarding checklist first; if we need more depth, I will read $lenny-user-onboarding and translate it into a solo-founder action plan.`
 
 ## Skills To Treat Carefully
 

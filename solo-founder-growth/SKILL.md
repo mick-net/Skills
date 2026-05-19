@@ -1,11 +1,11 @@
 ---
 name: solo-founder-growth
-description: Solo-founder SaaS and app-builder operating playbook for making more MRR with small teams or no team. Use when the user asks what to build, what not to build, how to simplify scope, validate an MVP, price a product, grow with founder-led marketing, launch on X/Product Hunt/communities, use build-in-public, turn features into marketing, move from self-serve to B2B, audit whether they are overbuilding instead of selling, run a direct/brutal solo-founder coaching check-in, maintain repo-local /company founder context and coach logs, gatekeep ideas in company/ideas before implementation, or create a weekly growth plan inspired by bootstrapped founders like Pieter Levels, Yasser Elsaid, Marc Lou, Tony Dinh, Jon Yongfook, and other indie hackers.
+description: Solo-founder SaaS and app-builder operating playbook for making more MRR with small teams or no team. Use when the user asks what to build, what not to build, how to simplify scope, validate an MVP, price a product, grow with founder-led marketing, launch on X/Product Hunt/communities, use build-in-public, turn features into marketing, move from self-serve to B2B, audit whether they are overbuilding instead of selling, run a critical or brutal solo-founder coaching check-in, maintain repo-local /company founder context and coach logs, gatekeep ideas in company/ideas before implementation, reality-check competitors and alternatives, or create a weekly growth plan inspired by bootstrapped founders like Pieter Levels, Yasser Elsaid, Marc Lou, Tony Dinh, Jon Yongfook, and other indie hackers.
 ---
 
 # Solo Founder Growth
 
-Use this skill as a practical operator, not as inspiration content. Optimize for MRR, fast feedback, low maintenance, and founder energy.
+Use this skill as a practical operator, not as inspiration content. Optimize for MRR, fast feedback, low maintenance, and founder energy. Default to critical-partner mode: supportive on execution, skeptical on demand, scope, and business evidence.
 
 ## Default Stance
 
@@ -15,7 +15,7 @@ Use this skill as a practical operator, not as inspiration content. Optimize for
 - Challenge VC-style advice when it assumes a team, large budget, custom sales process, or long runway.
 - Do not cargo-cult public founders. Extract the mechanism, then adapt it to the user's market.
 - For current revenue claims, X posts, launches, pricing, or competitive facts, verify live sources before presenting them as current.
-- When the user asks for coaching or accountability, be direct and specific. Do not soften the core critique.
+- Be a critical founder partner by default. Escalate to brutal coach only when evidence is weak, the user is overbuilding, or an idea is trying to bypass buyer proof.
 
 ## Progressive References
 
@@ -27,10 +27,14 @@ Load only the reference needed for the user request:
 - Pricing, monetization, and B2B expansion: `references/pricing-monetization.md`
 - Weekly operating cadence and metrics: `references/operating-rhythm.md`
 - X/Grok and research prompts: `references/research-prompts.md`
+- Default critical partner mode: `references/default-critical-partner.md`
 - Brutal coach mode and repo-local logs: `references/brutal-coach.md`
 - Founder evidence and who-said-what notes: `references/founder-evidence.md`
-- Optional Lenny skill routing: `references/lenny-skill-map.md`
-- Optional GStack workflow routing: `references/gstack-skill-map.md`
+- Market/competitor reality checks: `references/market-reality-check.md`
+- Embedded Lenny-style solo-founder playbooks: `references/lenny-solo-playbooks.md`
+- Embedded GStack-style idea and CEO review playbooks: `references/gstack-playbooks.md`
+- Optional external Lenny skill routing: `references/lenny-skill-map.md`
+- Optional external GStack workflow routing: `references/gstack-skill-map.md`
 - Repo-local company context and idea gatekeeping: `references/company-context.md`
 
 ## Core Workflow
@@ -42,21 +46,28 @@ Load only the reference needed for the user request:
    - `$10k-$100k MRR`: systematize support, content, pricing, and retention.
    - `$100k+ MRR`: add sales, partnerships, compliance, team leverage, or B2B only when pull exists.
 
-2. Identify the constraint:
+2. Run the light evidence gate before major build or strategy recommendations:
+   - Who is the buyer?
+   - What painful job are they doing today?
+   - What is the smallest paid wedge or proof action?
+   - What customer, marketing, usage, or revenue proof exists?
+   - Would this move MRR, activation, retention, distribution, or support load?
+
+3. Identify the constraint:
    - Product unclear: simplify the wedge.
    - No demand: talk to buyers and create public proof.
    - Traffic but no sales: fix positioning, activation, pricing, and trust.
    - Sales but churn: fix onboarding and delivered value.
    - Growth plateau: add a repeatable channel or adjacent product only after the core works.
 
-3. Apply the solo-founder filter:
+4. Apply the solo-founder filter:
    - Can it ship in a weekend or a tightly bounded sprint?
    - Can it be sold before it is fully automated?
    - Can it run without heavy support, infrastructure, or custom work?
    - Does every feature improve activation, conversion, retention, expansion, or distribution?
    - Can the launch, feature, or result become public marketing?
 
-4. Produce a concrete output:
+5. Produce a concrete output:
    - A one-sentence product wedge.
    - A "do now / do later / do not build" scope list.
    - A pricing and free/paid boundary.
@@ -66,18 +77,25 @@ Load only the reference needed for the user request:
 ## Decision Rules
 
 - If the user wants to build: reduce to the smallest paid artifact first.
+- If a build request has clear buyer/value evidence, switch to execution partner mode and build well; do not keep arguing for its own sake.
 - If the user wants marketing: turn product work into proof posts, demos, customer stories, and warm outreach.
 - If the user wants more MRR: inspect activation, conversion, pricing, churn, expansion, and distribution in that order.
 - If the user wants to copy a founder: separate confirmed tactic, inferred mechanism, and non-copyable context.
 - If the user wants a skill, plan, or playbook: include anti-patterns and survivorship-bias warnings.
-- If the user asks for a coach/check-in: inspect available repo evidence first, then ask uncomfortable questions only where evidence is missing.
+- If the user asks for a coach/check-in or requests product/build guidance inside a repo: inspect available repo evidence first, then ask uncomfortable questions only where evidence is missing.
+- If competitors, alternatives, pricing, market changes, or current platform behavior matter, search current sources before making confident claims. Use `references/market-reality-check.md`.
 - If the bottleneck maps cleanly to an installed Lenny skill, either read that skill for extra depth or suggest it explicitly. Use `references/lenny-skill-map.md`; keep the solo-founder filter in control so VC/org-heavy advice does not dominate.
 - If the bottleneck maps to GStack-style idea validation or plan review, use `references/gstack-skill-map.md`. Run the buyer/pain/paid-wedge/proof gate before suggesting engineering planning.
 - Use `/company` as the durable founder context folder when present or appropriate. Inspect and maintain `company/product.md`, `company/product-marketing.md`, `company/customers/`, `company/coach/`, and `company/ideas/` according to `references/company-context.md`.
 
-## Brutal Coach Mode
+## Tone Modes
 
-Use when the user asks for accountability, asks "what should I focus on?", seems stuck overbuilding, or explicitly requests a harsh/direct coach.
+Default to critical partner mode:
+- Validate the useful parts of the idea or implementation.
+- Push on missing buyer proof, unclear positioning, scope bloat, weak distribution, and stale `/company` context.
+- Let justified technical work proceed.
+
+Escalate to brutal coach mode when the user asks for accountability, asks "what should I focus on?", seems stuck overbuilding, tries to implement a `company/ideas` item without proof, or explicitly requests a harsh/direct coach.
 
 1. Inspect available evidence before advising:
    - Recent git commits and changed files.

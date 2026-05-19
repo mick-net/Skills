@@ -1,6 +1,6 @@
 # GStack Skill Map
 
-Use this when a solo-founder task could benefit from GStack-style workflows. GStack is an execution/planning accelerator, not the founder strategy layer.
+Use this when a solo-founder task could benefit from GStack-style workflows. GStack is an execution/planning accelerator, not the founder strategy layer. Prefer the embedded workflows in `references/gstack-playbooks.md`; use external `gstack-*` skills only when the user explicitly invokes them or wants that workflow isolated.
 
 ## Gate Before GStack
 
@@ -14,10 +14,12 @@ Use GStack-style workflows only after answering:
 
 If these answers are weak, stay in `solo-founder-growth`, `gstack-office-hours`, `lenny-founder-sales`, or `lenny-conducting-user-interviews` before engineering planning.
 
+When inside a repo, inspect `/company` context before asking these questions.
+
 ## Routing
 
-- Idea validation -> use `gstack-office-hours`.
-- Scope challenge -> use `gstack-plan-ceo-review`, but default to `SCOPE_REDUCTION`.
+- Idea validation -> use embedded Office Hours in `references/gstack-playbooks.md`; optionally suggest `gstack-office-hours`.
+- Scope challenge -> use embedded CEO Plan Review in `references/gstack-playbooks.md`; optionally suggest `gstack-plan-ceo-review`, but default to `SCOPE_REDUCTION`.
 
 ## How GStack Overlaps Lenny
 
@@ -61,9 +63,9 @@ Lenny is better when:
 Default hierarchy:
 
 1. `solo-founder-growth`: operating system and brutal coach.
-2. `gstack-office-hours`: idea/wedge pressure test.
+2. Embedded GStack Office Hours: idea/wedge pressure test.
 3. `lenny-founder-sales` or `lenny-conducting-user-interviews`: get buyer evidence.
-4. `gstack-plan-ceo-review`: review/cut implementation scope after evidence.
+4. Embedded GStack CEO Plan Review: review/cut implementation scope after evidence.
 5. `lenny-scoping-cutting`: extra depth if scope is still bloated.
 
 Blunt rule:
