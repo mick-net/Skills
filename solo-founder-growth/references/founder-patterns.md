@@ -2,6 +2,15 @@
 
 Use this when the user asks to learn from Pieter Levels, Yasser Elsaid, Marc Lou, Tony Dinh, Jon Yongfook, or similar bootstrapped founders.
 
+## Paid Source Handling
+
+Some founder sources are paid books or courses. Treat them as inspiration for high-level operating principles only.
+
+- Do not reproduce paid chapters, scripts, screenshots, examples, proprietary workflows, or long excerpts.
+- Prefer public posts, public product surfaces, and the founder's public writing as evidence in shared skill files.
+- When mentioning a paid source, point the user to the original source for the full framing, examples, and implementation detail.
+- If a lesson depends mainly on private study notes from a paid source, keep it generalized enough that the original work remains necessary.
+
 ## Shared Mechanisms
 
 - Ship a simple wedge into a market with obvious pull.
@@ -17,7 +26,7 @@ Use this when the user asks to learn from Pieter Levels, Yasser Elsaid, Marc Lou
 ## Pieter Levels
 
 Evidence note:
-- These Pieter Levels patterns are distilled from his public posts, product history, MAKE, and the Lex Fridman interview. For the deeper source material, read Pieter's paid book `MAKE`: https://readmake.com/ and the Lex transcript: https://lexfridman.com/pieter-levels-transcript/
+- These Pieter Levels patterns are high-level operating principles informed by public posts, product history, MAKE, and the Lex Fridman interview. For Pieter's original framing, stories, and examples, read the paid book `MAKE`: https://readmake.com/ and the Lex transcript: https://lexfridman.com/pieter-levels-transcript/
 
 Mechanism:
 - Many cheap market probes, then double down on winners.
@@ -81,7 +90,7 @@ Do not copy blindly:
 ## Tony Dinh
 
 Evidence note:
-- These Tony Dinh patterns are distilled from his public posts, product history, and public product pages. For the deeper story, examples, screenshots, and original framing, read Tony's paid book `My Indie Book`: https://www.myindiebook.com/
+- These Tony Dinh patterns are high-level operating principles informed by public posts, product history, public product pages, and private study notes. For Tony's original story, screenshots, examples, and implementation detail, read the paid book `My Indie Book`: https://www.myindiebook.com/
 
 Mechanism:
 - Build personal-pain products inside markets with existing urgency.
@@ -105,7 +114,7 @@ Do not copy blindly:
 ## Danny Postma / HeadshotPro
 
 Evidence note:
-- These Danny Postma patterns are distilled from his public posts, product history, and the user's paid SEO course transcripts. Use them as operating principles; read the original course for the full SEO workflow and examples.
+- These Danny Postma patterns are high-level operating principles informed by public posts, product surfaces, and private study notes. This skill does not reproduce the SEO course workflow; buy the original course for the full examples, walkthroughs, and implementation details.
 
 Mechanism:
 - Demand-driven product development: use keyword research before building to check whether people already search for the job, output, or problem.
