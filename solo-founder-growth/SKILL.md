@@ -1,6 +1,6 @@
 ---
 name: solo-founder-growth
-description: Solo-founder SaaS and app-builder operating playbook for making more MRR with small teams or no team. Use when the user asks what to build, what not to build, how to simplify scope, validate an MVP, price a product, grow with founder-led marketing, improve a landing page or onboarding flow, launch on X/Product Hunt/communities, use build-in-public, turn features into marketing, move from self-serve to B2B, audit whether they are overbuilding instead of selling, run a critical or brutal solo-founder coaching check-in, maintain repo-local /company founder context and coach logs, gatekeep ideas in company/ideas before implementation, reality-check competitors and alternatives, or create a weekly growth plan inspired by bootstrapped founders like Pieter Levels, Yasser Elsaid, Marc Lou, Tony Dinh, Jon Yongfook, and other indie hackers.
+description: Solo-founder SaaS and app-builder operating playbook for making more MRR with small teams or no team. Use when the user asks what to build, what not to build, how to simplify scope, validate an MVP, price a product, grow with founder-led marketing, improve a landing page or onboarding flow, pull lightweight growth metrics, launch on X/Product Hunt/communities, use build-in-public, turn features into marketing, move from self-serve to B2B, audit whether they are overbuilding instead of selling, run a critical or brutal solo-founder coaching check-in, maintain repo-local /company founder context and coach logs, gatekeep ideas in company/ideas before implementation, reality-check competitors and alternatives, or create a weekly growth plan inspired by bootstrapped founders like Pieter Levels, Yasser Elsaid, Marc Lou, Tony Dinh, Jon Yongfook, and other indie hackers.
 ---
 
 # Solo Founder Growth
@@ -25,6 +25,7 @@ Load only the reference needed for the user request:
 - Product scope, MVP, and what to build: `references/product-scope.md`
 - Marketing, launch, and growth loops: `references/marketing-growth.md`
 - Public surface, landing page, and onboarding audit: `references/public-surface-onboarding.md`
+- Metrics and growth diagnosis: `references/metrics-growth-diagnosis.md`
 - Pricing, monetization, and B2B expansion: `references/pricing-monetization.md`
 - Weekly operating cadence and metrics: `references/operating-rhythm.md`
 - X/Grok and research prompts: `references/research-prompts.md`
@@ -53,6 +54,7 @@ Load only the reference needed for the user request:
    - What is the smallest paid wedge or proof action?
    - What customer, marketing, usage, or revenue proof exists?
    - Is the public surface clear enough for the buyer to understand and act?
+   - If launched, what metrics show the bottleneck?
    - Would this move MRR, activation, retention, distribution, or support load?
 
 3. Identify the constraint:
@@ -82,6 +84,7 @@ Load only the reference needed for the user request:
 - If a build request has clear buyer/value evidence, switch to execution partner mode and build well; do not keep arguing for its own sake.
 - If the user wants marketing: turn product work into proof posts, demos, customer stories, and warm outreach.
 - If the public website, app onboarding, demo, pricing page, or signup flow is unclear, treat that as a growth blocker. Use `references/public-surface-onboarding.md` before recommending more features.
+- If the product is launched or has real traffic/revenue, inspect the smallest useful metric set before guessing. Use `references/metrics-growth-diagnosis.md`; do not turn analytics setup into procrastination.
 - If the user wants more MRR: inspect activation, conversion, pricing, churn, expansion, and distribution in that order.
 - If the user wants to copy a founder: separate confirmed tactic, inferred mechanism, and non-copyable context.
 - If the user wants a skill, plan, or playbook: include anti-patterns and survivorship-bias warnings.
@@ -104,6 +107,7 @@ Escalate to brutal coach mode when the user asks for accountability, asks "what 
    - Recent git commits and changed files.
    - README, specs, company/product docs, pricing page, landing page, changelog, analytics notes, customer notes, and marketing/content files.
    - Public routes, screenshots, onboarding flows, demo videos, docs, and signup/checkout paths when present.
+   - Available revenue, traffic, search, product analytics, replay, error, support, and churn evidence.
    - Existing coaching log if present.
 2. Classify the last week of work:
    - Product validation.

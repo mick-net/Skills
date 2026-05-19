@@ -9,6 +9,7 @@ Expected paths:
 - `company/product.md`: product truth. What the app does, buyer, painful job, wedge, current stage, current constraints.
 - `company/product-marketing.md`: positioning, ICP, channels, offers, proof points, launch/content notes.
 - `company/public-surface.md` (optional): current landing page, onboarding, pricing, demo, and CTA audit notes.
+- `company/metrics.md` (optional): lightweight current growth metrics and bottleneck notes.
 - `company/customers/`: meeting transcripts, interview notes, support summaries, churn notes, testimonials.
 - `company/coach/`: solo-founder-growth coach logs and weekly accountability.
 - `company/ideas/`: raw ideas, feature concepts, market observations, and possible bets.
@@ -63,6 +64,7 @@ High-priority context debt:
 - `company/product.md` has an outdated buyer, wedge, or product promise.
 - `company/product-marketing.md` does not match the current ICP, channel, offer, or proof.
 - The public website, onboarding flow, pricing page, or demo contradicts `company/product-marketing.md`.
+- The product is launched but there is no current traffic, activation, revenue, search, or churn summary.
 - Customer conversations happened but are not stored under `company/customers/`.
 - `company/ideas/` contains implementation-ready-looking ideas without buyer/proof notes.
 - The coach log has commitments but no follow-up status.
@@ -107,6 +109,22 @@ Useful sections:
 - Open public-surface gaps.
 
 If the actual website is weaker than the internal positioning, say so directly and recommend a public-surface fix before more feature work.
+
+## Metrics Evidence
+
+Use `company/metrics.md` only when a short snapshot would help future agents avoid guessing.
+
+Useful sections:
+
+- Current MRR/revenue stage.
+- Traffic source and volume.
+- Signup, activation, trial, payment, and churn signals.
+- Search impressions/clicks, indexed pages, backlinks, or rankings when SEO matters.
+- Top funnel leak.
+- Current growth bet.
+- Data source and date.
+
+Keep it concise. Do not create a metrics file just because a product exists; create it when the metric snapshot changes what to build, sell, fix, or cut.
 
 ## Ideas Gatekeeping
 
