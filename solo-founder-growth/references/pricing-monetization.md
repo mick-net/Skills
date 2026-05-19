@@ -11,6 +11,7 @@ Use this for pricing decisions, free/paid boundaries, lifetime vs subscription, 
 - Price against the value and alternative, not engineering time.
 - Use payment as validation; waitlists and compliments are weaker signals.
 - Treat refund reasons and pricing objections as product evidence, not just support cleanup.
+- Low prices are dangerous when support burden, reliability expectations, or variable costs are high.
 - Raise prices as confidence, value, and trust increase.
 
 ## Free Boundary
@@ -35,6 +36,7 @@ Use one-time pricing when:
 - The product can run locally, statically, offline, or BYO-key.
 - Support burden is low.
 - Customers compare against templates, desktop apps, utilities, or owned software.
+- The value is a finite output or asset, such as a template, course, local app, BYO-key tool, package, or report.
 - A quick cash injection and lower purchase friction matter more than recurring revenue.
 
 Use subscription when:
@@ -51,7 +53,7 @@ Hybrid pattern:
 ## Usage-Based Tiers
 
 Use when value scales with volume:
-- Messages, seats, agents, documents, workflows, credits, exports, tracked visitors, jobs, listings.
+- Messages, generated media, API calls, seats, agents, documents, workflows, credits, exports, tracked visitors, jobs, listings.
 
 Keep it understandable:
 - Name the buyer type.

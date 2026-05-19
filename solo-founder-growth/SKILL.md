@@ -92,6 +92,7 @@ Load only what matches the bottleneck:
 - Product scope and manual-first MVP: `references/product-scope.md`
 - Community/channel reachability: `references/community-reachability.md`
 - Public surface and onboarding: `references/public-surface-onboarding.md`
+- Product surface examples and buyer friction: `references/public-surface-examples.md`
 - Metrics diagnosis: `references/metrics-growth-diagnosis.md`
 - Pricing and paid boundary: `references/pricing-monetization.md`
 - Operating cadence: `references/operating-rhythm.md`

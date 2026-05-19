@@ -39,6 +39,25 @@ If none are true, recommend validation before building.
 
 Competitor research must end in a decision: reposition, narrow, validate, build, or drop. Do not leave the user with a comparison table that does not change the next action.
 
+## Buyer Friction Check
+
+Prefer easier buyers first:
+
+- Prosumers, founders, SMBs, agencies, and practitioners with card authority.
+- Buyers who feel the pain directly and can try the product without legal/procurement.
+- Markets with a known expensive, slow, or annoying alternative.
+- Buyers who can understand the output in 10 seconds.
+
+Be cautious when the first buyer requires:
+
+- Legal review before trial.
+- Procurement or IT approval before value is proven.
+- Security, DPA, SOC 2, SSO, audit logs, or deployment reviews before payment.
+- Domain expertise so deep that only a few hard-to-reach experts understand the value.
+- Sensitive data that blocks demos, onboarding, or self-serve proof.
+
+Trust, compliance, and enterprise features can be valid later. Do not start there unless pull already exists.
+
 ## Search Queries
 
 Use queries like:
@@ -68,6 +87,7 @@ Use:
 - `Current Alternatives`: direct, free, manual, do-nothing.
 - `Buyer Switching Reason`: why someone would switch now.
 - `Differentiation`: the strongest credible edge.
+- `Buyer Friction`: whether this is an easy buyer, hard buyer, or hard buyer with proof.
 - `Weakness`: where incumbents/free options are good enough.
 - `Wedge Recommendation`: narrower segment, feature, offer, or validation test.
 - `Build Decision`: build, cut, validate, reposition, or research more.
