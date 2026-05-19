@@ -8,6 +8,7 @@ Expected paths:
 
 - `company/product.md`: product truth. What the app does, buyer, painful job, wedge, current stage, current constraints.
 - `company/product-marketing.md`: positioning, ICP, channels, offers, proof points, launch/content notes.
+- `company/public-surface.md` (optional): current landing page, onboarding, pricing, demo, and CTA audit notes.
 - `company/customers/`: meeting transcripts, interview notes, support summaries, churn notes, testimonials.
 - `company/coach/`: solo-founder-growth coach logs and weekly accountability.
 - `company/ideas/`: raw ideas, feature concepts, market observations, and possible bets.
@@ -61,6 +62,7 @@ Call out context debt when `/company` would mislead the next agent.
 High-priority context debt:
 - `company/product.md` has an outdated buyer, wedge, or product promise.
 - `company/product-marketing.md` does not match the current ICP, channel, offer, or proof.
+- The public website, onboarding flow, pricing page, or demo contradicts `company/product-marketing.md`.
 - Customer conversations happened but are not stored under `company/customers/`.
 - `company/ideas/` contains implementation-ready-looking ideas without buyer/proof notes.
 - The coach log has commitments but no follow-up status.
@@ -89,6 +91,22 @@ Extract from transcripts:
 - Objections.
 - Follow-up commitment.
 - Product implications.
+
+## Public Surface Evidence
+
+Use `company/public-surface.md` when repeated landing/onboarding audits would help future agents. Keep it short and current.
+
+Useful sections:
+
+- Live URL or route.
+- Current headline, subhead, CTA, and pricing entry point.
+- Intended aha moment.
+- Main proof shown publicly.
+- Signup-to-activation path.
+- Known conversion or activation metrics.
+- Open public-surface gaps.
+
+If the actual website is weaker than the internal positioning, say so directly and recommend a public-surface fix before more feature work.
 
 ## Ideas Gatekeeping
 

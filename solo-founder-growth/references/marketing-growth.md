@@ -6,6 +6,8 @@ Use this for launch plans, content, build-in-public, founder-led marketing, and 
 
 Marketing is not separate from building. For a solo founder, every product decision should create proof that can be shown publicly or used in outreach.
 
+Internal positioning does not count if buyers cannot see it. If the landing page, demo, pricing page, or onboarding flow does not communicate the promise clearly, run `public-surface-onboarding.md` before planning more channels.
+
 ## Growth Loops To Prefer
 
 ### Feature Announcement Loop
@@ -41,6 +43,7 @@ Best for: Shopify, Slack, Notion, Stripe, Zendesk, GitHub, Linear, browser exten
 ## Launch Checklist
 
 - Define the one-line promise.
+- Make the public page show buyer, painful job, outcome, proof, and CTA above or near the first decision point.
 - Record a short demo where value appears in the first 5-10 seconds.
 - Include proof: customer quote, metric, before/after, speed, revenue, or personal use.
 - Use one CTA: try, buy, reply, join, or book.

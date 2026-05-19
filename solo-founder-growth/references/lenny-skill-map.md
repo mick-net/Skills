@@ -73,6 +73,8 @@ Solo-founder translation:
 - Avoid abstract brand work before traction.
 - Write one concrete promise for one buyer and one painful job.
 
+For public website or onboarding audits, start with `references/public-surface-onboarding.md`, then load this skill only if the copy/positioning needs deeper work.
+
 ### Marketing And Launch
 
 Use `lenny-content-marketing` when:
@@ -96,6 +98,8 @@ Use `lenny-user-onboarding` when:
 - Users sign up but do not reach value.
 - The first 30-120 seconds are confusing.
 - The product needs a faster aha moment.
+
+For landing-page-to-signup or signup-to-aha reviews, start with `references/public-surface-onboarding.md`; load `lenny-user-onboarding` when the activation path itself needs deeper structure.
 
 Use `lenny-retention-engagement` when:
 - Users pay but churn, stop using, or fail to form a repeat habit.
@@ -179,10 +183,11 @@ Use at most 2-3 skills together:
 - Overbuilding audit: `solo-founder-growth` + `lenny-scoping-cutting` + `lenny-problem-definition`
 - First customers: `solo-founder-growth` + `lenny-founder-sales` + `lenny-positioning-messaging`
 - Customer discovery: `solo-founder-growth` + `lenny-conducting-user-interviews`
-- Landing page: `solo-founder-growth` + `lenny-positioning-messaging`
+- Landing page: `solo-founder-growth` + `references/public-surface-onboarding.md` + `lenny-positioning-messaging`
+- Visual landing execution: `solo-founder-growth` + `references/public-surface-onboarding.md` + `frontend-skill`
 - Launch: `solo-founder-growth` + `lenny-launch-marketing` + `lenny-content-marketing`
 - SEO/content: `solo-founder-growth` + `lenny-content-marketing`
-- Activation: `solo-founder-growth` + `lenny-user-onboarding`
+- Activation: `solo-founder-growth` + `references/public-surface-onboarding.md` + `lenny-user-onboarding`
 - Churn: `solo-founder-growth` + `lenny-retention-engagement` + `lenny-analyzing-user-feedback`
 - Pricing: `solo-founder-growth` + `lenny-pricing-strategy`
 - PLG expansion: `solo-founder-growth` + `lenny-product-led-sales`
