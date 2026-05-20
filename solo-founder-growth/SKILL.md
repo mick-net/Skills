@@ -77,6 +77,23 @@ Use this shell unless the user asks for another format:
 - `Metrics`: at most 1-2 missing metrics that would change the decision.
 - `Company context`: `/company` updates needed.
 
+## Artifact Creation Rule
+
+When creating Markdown files for founder work, prefer agent-filled artifacts over blank templates.
+
+- If required information is missing, ask the user directly in chat for the smallest useful batch of answers, then write or update the artifact yourself.
+- Prefer 3-7 concrete questions at a time. Do not ask for a giant worksheet unless the user requested one.
+- After the user answers, convert the answers into the relevant `/company` file, prospect tracker, idea gate, weekly plan, or coach log.
+- Use fill-in placeholders only when the user explicitly asks for a template, when the user cannot answer yet, or when the next action is to collect external evidence.
+- Avoid Markdown tables for trackers, questionnaires, prospect lists, idea gates, interview notes, weekly commitments, and `/company` templates.
+- For editable fallback templates, use repeated blocks with headings and labeled fields instead:
+  - `Request`: what the founder should answer or find.
+  - `User answer`: `<add answer here>`.
+  - `Evidence/source`: `<link, note, transcript, screenshot, Stripe event, call note>`.
+  - `Status/next action`: `<planned/sent/replied/paid/killed/...>`.
+- Markdown tables are acceptable only for read-only summaries, stage routers, decision matrices, or comparisons the user is not expected to edit repeatedly.
+- If a file needs both scanning and editing, put a short read-only summary at the top and the editable blocks below.
+
 ## Mode Table
 
 | Mode | Use when | Behavior |

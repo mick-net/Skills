@@ -17,6 +17,49 @@ Expected paths:
 
 Do not assume every repo has all files. When missing, call out the gap and suggest the smallest useful file.
 
+## Company Artifact Creation
+
+Write `/company` files for future agents and for the founder who has to work with them.
+
+Default to an agent-filled workflow:
+
+1. Inspect existing `/company` context.
+2. Ask the user the smallest set of missing questions in chat.
+3. Turn the answers into a durable `/company` artifact yourself.
+4. Leave placeholders only for external evidence the user still needs to collect.
+
+Good chat prompt shape:
+
+```markdown
+I can create `company/prospect-tracker.md`, but I need five inputs:
+
+1. Which buyer segment should we start with?
+2. Name 5-10 real people/accounts you can reach this week.
+3. What pain or workaround do you expect each one has?
+4. What paid/pilot ask should we make?
+5. Where should I record outreach status: this file only, CRM, or both?
+```
+
+Avoid Markdown tables for files the founder will maintain by hand, especially prospect trackers, outreach logs, idea gates, interview templates, weekly commitments, and customer-evidence checklists. Tables render nicely but are annoying to fill in and easy to break.
+
+When a template is still useful, prefer repeated blocks:
+
+```markdown
+## Prospect 1: <name or account>
+
+- Request: Name the actual buyer or account.
+- User answer: <add answer here>
+- Segment: <role, company type, niche, or community>
+- Pain in their words: <quote or observed workaround>
+- Source/channel: <where you found or can reach them>
+- Status: <planned/sent/replied/call/trial/activated/checkout/subscribed/not-now>
+- Last touch: <date and note>
+- Next action: <specific follow-up>
+- Evidence/source: <link, transcript, screenshot, CRM note, Stripe event>
+```
+
+Use Markdown tables only for read-only summaries or comparisons the founder is not expected to update repeatedly.
+
 ## Coach Log
 
 Default log path:
