@@ -155,12 +155,15 @@ Mechanism:
 - Used a 50/50 rhythm: one week coding, one week marketing through tweets, blog posts, docs, tutorials, demos, and newsletter updates.
 - Repositioned around jobs-to-be-done after usage and customer conversations.
 - Used free tools and technical content as durable SEO/backlink assets.
+- Kept the early scoreboard concrete: first `$1k MRR`, then recurring revenue quality.
 
 Copy:
 - Treat marketing as any growth-aligned activity that is not building features.
 - Create demos and docs for every major feature.
 - Write about technical pain that your product abstracts away.
 - Do not price too low for B2B SaaS.
+- Prove the product is marketable yourself before hiring or delegating marketing.
+- Prefer recurring subscriptions over lifetime deals for durable SaaS, unless the product economics clearly fit one-time pricing.
 
 Do not copy blindly:
 - Do not keep launching unrelated products if one area is showing pull.

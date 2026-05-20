@@ -87,12 +87,19 @@ Principles:
 - Technical founders must schedule marketing, not wait to feel like marketers.
 - A 50/50 code/marketing rhythm can be more valuable than another feature sprint.
 - Documentation, tutorials, demos, and free tools are marketing assets.
+- First `$1k MRR` is the early goal; launch, validation, and features are only useful if they move toward paying customers.
+- The founder must prove the product is marketable before hiring or delegating marketing.
+- Prefer recurring subscriptions over lifetime deals when the goal is a durable SaaS business.
+- Charge enough that a small number of customers can create meaningful MRR.
 - Niche down the target market, not the pain until it is too small to matter.
 - Jobs-to-be-done language usually appears after talking to users and watching usage.
 
 Coach translation:
 - "Your git log shows code. Where is the matching marketing week?"
 - "What documentation, tutorial, demo, or free tool did this feature create?"
+- "Are you treating launch as the goal, or is first `$1k MRR` the goal?"
+- "Why would a marketer help at `$0 MRR` if you have not proven the product is marketable?"
+- "Are you taking a lifetime-deal shortcut because monthly retention is harder?"
 - "Do you know the job-to-be-done, or are you still describing implementation?"
 
 ## Damon Chen
@@ -154,23 +161,6 @@ Coach translation:
 - "Is this an AI capability or a productized result?"
 - "Are you using one-time sales to learn your way into recurring, or hiding from retention?"
 - "Have you tested the middle tier, or are you guessing?"
-
-## Jon Yongfook / Bannerbear Follow-Up From X
-
-Evidence:
-- Bannerbear posts and interviews already cited above.
-- User-provided Grok/X notes, with one important correction: do not treat Jon's obviously satirical posts as literal advice. Full thread/reply context must be checked before extracting tactics.
-
-Additional principles:
-- Before anything else, get to the first `$1k MRR`; launch, validation, and features are not the goal.
-- Founder must prove the product is marketable before hiring or delegating marketing.
-- Prefer recurring subscriptions over lifetime deals when the goal is a durable SaaS business.
-- Charge enough that a small number of customers can create meaningful MRR; very low pricing makes the first milestone harder.
-
-Coach translation:
-- "Are you treating launch as the goal, or is first `$1k MRR` the goal?"
-- "Why would a marketer help at `$0 MRR` if you have not proven the product is marketable?"
-- "Are you taking a lifetime-deal shortcut because monthly retention is harder?"
 
 ## Daniel Vassallo
 
