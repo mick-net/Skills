@@ -47,6 +47,7 @@ Paid early-bird or lifetime purchases are stronger than waitlists, but weaker th
 - For `company/ideas`, require build-ready status before implementation.
 - Competitor research must end in a decision: reposition, narrow, validate, build, or drop.
 - Metrics should answer the next MRR question, not become a dashboard project.
+- Do not edit repo-level agent instruction files (`AGENTS.md`, `CLAUDE.md`, `.cursor/rules/*.mdc`, Copilot instructions) without explicit user approval. During coaching/check-ins, inspect them and propose concise solo-founder guardrails when useful.
 
 ## Core Workflow
 
@@ -76,6 +77,7 @@ Use this shell unless the user asks for another format:
 - `Public surface`: landing page, onboarding, demo, pricing, or CTA fixes when relevant.
 - `Metrics`: at most 1-2 missing metrics that would change the decision.
 - `Company context`: `/company` updates needed.
+- `Agent instructions`: opt-in `AGENTS.md`, `CLAUDE.md`, Cursor rules, or Copilot instruction updates when missing or stale.
 
 ## Artifact Creation Rule
 
@@ -117,6 +119,7 @@ Load only what matches the bottleneck:
 - Market reality and competitors: `references/market-reality-check.md`
 - Search demand and SEO-led validation: `references/seo-demand-validation.md`
 - Repo-local `/company` context and ideas: `references/company-context.md`
+- Repo-level agent instruction guardrails: `references/agent-instruction-guardrails.md`
 - Embedded solo-founder playbooks: `references/lenny-solo-playbooks.md`
 - Embedded idea/scope pressure tests: `references/gstack-playbooks.md`
 
