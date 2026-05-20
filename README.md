@@ -1,6 +1,55 @@
 # Public Codex Skills
 
-Reusable, project-agnostic Codex skills.
+Reusable, project-agnostic agent skills.
+
+These skills use the common `SKILL.md` folder shape. Each skill is self-contained
+in its own directory and can be installed into Codex, Claude Code, Cursor, or a
+portable project-level `.agents/skills` folder.
+
+## Quick Install
+
+The existing GitHub URLs are stable. For example:
+
+`https://github.com/mick-net/Skills/tree/master/solo-founder-growth`
+
+### Codex
+
+In Codex, ask:
+
+```text
+Install the skill from https://github.com/mick-net/Skills/tree/master/solo-founder-growth
+```
+
+Codex can use its built-in `skill-installer` to install GitHub skill paths into
+`~/.codex/skills`.
+
+### Claude Code
+
+Claude Code skills live in either:
+
+- `~/.claude/skills/<skill-name>` for personal skills.
+- `.claude/skills/<skill-name>` for project skills committed to a repo.
+
+You can ask Claude Code to install from the GitHub URL, but it should still be
+doing the same mechanical work: copy the complete skill folder, including
+`SKILL.md`, `references/`, `scripts/`, and any assets.
+
+### Cursor
+
+For Cursor, prefer a project-level install if your Cursor version supports
+Agent Skills:
+
+- `.cursor/skills/<skill-name>` for Cursor-specific installs.
+- `.agents/skills/<skill-name>` when you want one checked-in copy shared across
+  Cursor, Claude Code-compatible agents, Codex-style agents, and other tools
+  that understand the common skills layout.
+
+If your Cursor version does not discover `SKILL.md` folders, use the fallback in
+[INSTALL.md](INSTALL.md): create a small `.cursor/rules/*.mdc` rule that points
+Cursor to the checked-in skill folder.
+
+See [INSTALL.md](INSTALL.md) for copy-paste commands and safer project-level
+options.
 
 ## Skills
 
