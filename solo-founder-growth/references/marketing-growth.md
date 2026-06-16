@@ -59,6 +59,46 @@ Best for: Shopify, Slack, Notion, Stripe, Zendesk, GitHub, Linear, browser exten
 - Launch where the buyer already spends attention: X, Product Hunt, Hacker News, Reddit, niche Slack/Discord, LinkedIn, marketplace, newsletter, or direct email.
 - Capture email or account creation on day one.
 
+## Launch And Warm Outbound
+
+Launch repeatedly, but never as empty noise. Each launch should have a sharper proof point:
+
+- New wedge.
+- Short demo.
+- Customer result.
+- Pricing or paid boundary.
+- Integration.
+- Use case.
+- Before/after artifact.
+- Clearer niche or buyer.
+
+After every launch or content push:
+
+1. Inspect who engaged.
+2. Qualify them against the ICP and buyer signal.
+3. Manually follow up with a relevant ask.
+4. Record replies, objections, demos, trials, payments, and non-fit reasons.
+
+Do not automate spam from likes or comments. Warm outbound means the founder uses a real signal to start a relevant conversation.
+
+## Competitor Distribution Maps
+
+Copy the channel, not the competitor.
+
+Map where similar products already get attention:
+
+- Backlinks.
+- Directories and marketplaces.
+- Comparison and alternative pages.
+- Newsletters.
+- Podcasts.
+- Communities.
+- Integration ecosystems.
+- Review sites.
+- Tutorials and templates.
+
+Use the map to decide where to launch, contribute, pitch, write, partner, or build an integration. End with a decision: pursue, test, ignore, or revisit later.
+
 ## Build-In-Public Rules
 
 Good:
