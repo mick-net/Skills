@@ -59,6 +59,38 @@ Best for: Shopify, Slack, Notion, Stripe, Zendesk, GitHub, Linear, browser exten
 - Launch where the buyer already spends attention: X, Product Hunt, Hacker News, Reddit, niche Slack/Discord, LinkedIn, marketplace, newsletter, or direct email.
 - Capture email or account creation on day one.
 
+## Launch Asset Checklist
+
+Buyer-qualified attention matters more than virality. A viral post that attracts non-buyers is weak proof.
+
+Before writing launch copy, collect:
+
+- What buyers already love.
+- What buyers already hate.
+- The old way, enemy, or broken workflow.
+- The highest-value outcome the product creates.
+- Exact buyer/customer language.
+- The boldest true claim you can make without hype.
+
+Every launch asset should pass this check:
+
+- `Claim`: bold, true, and bigger than a feature.
+- `Context`: a cold viewer understands the buyer pain in 10 seconds.
+- `Artifact`: the product value appears immediately: demo, generated output, dashboard, before/after, or workflow solved.
+- `Outcome`: lead with the strongest buyer-relevant result, not implementation details.
+- `Distribution`: seed relevant buyers, users, partners, or credible amplifiers before launch.
+- `Conversion`: one CTA plus a warm outbound plan for engaged people.
+- `Follow-up`: turn replies, objections, demos, and proof into the next post, email, landing-page section, or sales asset.
+
+Avoid:
+
+- Slow intros.
+- "Excited to announce."
+- Vague category language.
+- Founder lore before buyer pain.
+- Polarizing claims that are not true or that attract non-buyers.
+- Optimizing for impressions when the bottleneck is payment, activation, or retention.
+
 ## Launch And Warm Outbound
 
 Launch repeatedly, but never as empty noise. Each launch should have a sharper proof point:
