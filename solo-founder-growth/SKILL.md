@@ -19,10 +19,12 @@ Start with stage, proof, and bottleneck. Do not begin with optional skill routin
 | `launched/no revenue` | Traffic, signup, activation, first payment | traffic source, CTA, activation path, paid boundary or manual offer | launch/outreach if no traffic; public-surface rewrite if no signup; paid boundary/manual onboarding if no payment | new features unless directly fixing the leak |
 | `first paying customers / $1-$1k MRR` | Repeatable first revenue | paying users, source channel, activation notes, objections/churn | talk to every buyer/non-activated user, raise/tighten price, fix activation, repeat the channel that worked | broad roadmap, new audience, growth loops |
 | `$1k-$10k MRR` | Focus and retention | one buyer, one channel, one offer, churn/support/activation evidence | improve onboarding, pricing, retention, support load, and repeatable acquisition | portfolio expansion, enterprise fantasy, speculative features |
-| `$10k-$100k MRR` | Systematizing what works | cohort/channel quality, churn reasons, support themes, expansion signals | scale proven channel, content/SEO, team plan when domain signals exist, outsource proven bottlenecks | compliance, sales team, hiring, partnerships, or B2B features without real pull |
-| `$100k+ MRR` | Leverage and durability | repeatable revenue engine, expansion pull, operational bottleneck | sales, partnerships, compliance, team leverage, enterprise only when deals require it | copying VC org structure by default |
+| `$10k-$100k MRR` | Systematizing what works | cohort/channel quality, churn reasons, support themes, expansion signals, founder load, margin, concentration, operational risk | scale proven channel, content/SEO, remove founder bottlenecks, outsource or hire against measured capacity, specialist, or continuity needs | speculative enterprise surface, broad sales hiring, certification, partnerships, or B2B features without defined segment/deal/risk pull |
+| `$100k+ MRR` | Leverage and durability | repeatable revenue engine, expansion pull, operational bottleneck, service quality, owner independence, unit economics, risk coverage | improve team leverage, support quality, segment-specific sales/support, compliance only when deals require it | copying VC org structure, headcount, management layers, or enterprise complexity by default |
 
 If stage is unknown inside a repo, call it out and recommend updating `company/product.md` or `company/metrics.md` before giving stage-specific advice.
+
+MRR routes growth advice; it does not determine staffing. When trust, procurement, implementation, support, reliability, regulatory, unit-economic, or continuity load appears, apply the Operating Load Override in `references/tiny-team-scaling.md` regardless of MRR.
 
 ## Proof Ladder
 
@@ -115,6 +117,7 @@ Load only what matches the bottleneck:
 - Metrics diagnosis: `references/metrics-growth-diagnosis.md`
 - Pricing and paid boundary: `references/pricing-monetization.md`
 - Operating cadence: `references/operating-rhythm.md`
+- Tiny-team scaling, operating-load, hiring/process triggers, and AI delegation: `references/tiny-team-scaling.md`
 - Brutal coach protocol: `references/brutal-coach.md`
 - Market reality and competitors: `references/market-reality-check.md`
 - Search demand and SEO-led validation: `references/seo-demand-validation.md`
