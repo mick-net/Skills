@@ -15,6 +15,18 @@ First identify the current stage/MRR. Then ask for the smallest metric set that 
 
 If the product has no traffic and no customers, do not over-instrument. Push the founder toward the earliest shippable prototype, selling, launching, outreach, or public proof.
 
+When revenue exists, reduce the business to the simple revenue equation before adding dashboards:
+
+`revenue capacity ~= customers acquired per period * average retention duration * average price`
+
+Then pick one operational metric for the current lever:
+
+- Acquisition: qualified conversations, demos, trials, signups from the main channel, or calls booked.
+- Retention: activation success, useful outputs delivered, repeat usage, support themes, churn reasons, or time to first value.
+- Price/ARPA: plan mix, close rate by price, expansion requests, refund reasons, support load per plan, or gross margin.
+
+Do not optimize all three at once. If every metric improves but revenue still falls, inspect the work directly: sales calls, support tickets, onboarding sessions, failed jobs, and customer outcomes. Numbers can hide quality decay.
+
 ## Useful Data Sources
 
 Use whatever the environment can access. In Codex, this may be skills/plugins. In Claude Code, Cursor, or other agents, this may be MCP servers, API docs, CLI tools, exports, screenshots, CSVs, or pasted metrics.
@@ -119,6 +131,7 @@ Default action:
 - Systematize the channel that already works.
 - Add pricing/packaging or team/B2B expansion only when signals exist.
 - Improve onboarding and retention before adding broad features.
+- Track founder load, delivery quality, margin, and customer concentration alongside MRR; a growing high-touch business can still be fragile.
 
 ## Routing To Existing Skills
 

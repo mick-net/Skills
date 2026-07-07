@@ -31,6 +31,18 @@ If any are missing, recommend validation, outreach, public-surface work, or manu
 
 When the founder asks for automation, propose the manual or concierge version first unless repeated usage, support load, or paid demand already proves the workflow.
 
+Manual-first does not mean broad-first. A manual wedge should still have one buyer, one job, one output, one delivery window, and one paid boundary.
+
+## Product/Channel Phase
+
+Use the phase to decide whether to explore or focus:
+
+- `Search phase`: no working product/channel yet. Small experiments are allowed, but each should test a buyer, channel, promise, or paid ask quickly.
+- `Repeat phase`: product plus channel works. Stop portfolio-hopping; repeat the channel, improve activation, tighten pricing, and remove delivery friction.
+- `Plateau phase`: growth has flattened. Choose one lever at a time: get more customers, keep them longer, or make them pay more. Do not rebuild the whole product.
+
+If the founder is adding ideas while one offer is already pulling, challenge whether this is market sampling or avoidance.
+
 ## MVP Shape
 
 A useful MVP is a finished simpler product, not a half-built version of the full vision.
@@ -45,6 +57,7 @@ Prefer:
 
 Avoid:
 - Multi-person permissions before one user loves it.
+- Empty marketplaces, communities, or network products before one side has supply, demand, or a pre-seeded reason to show up.
 - Dashboards before users know what action to take.
 - Integrations before the core job is valuable.
 - Mobile apps when a web app or desktop app is enough.
@@ -83,6 +96,8 @@ Expand only after one of these is true:
 - Support volume proves the manual process needs automation.
 - The feature opens a concrete channel, integration marketplace, or buyer segment.
 - A team/B2B buyer asks for security, admin, billing, or deployment features and is willing to pay.
+
+If the core offer is already clear and converting, changes should be reluctant and small. Make one change, measure it, then decide. Do not bury a working promise under a larger bundle because growth feels stuck.
 
 ## Scope Output Template
 

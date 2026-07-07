@@ -48,6 +48,18 @@ If any dimension creates material customer harm, legal exposure, or revenue frag
 9. Treat compliance as feasibility first: identify deal blockers early, but do full certification only after qualified demand or obligation.
 10. Keep scope small even when scaling: systematize what works before expanding product surface, market, or org structure.
 
+## Productized-Service Boundary
+
+Use this when a solo founder adds services, paid pilots, audits, implementation, or concierge delivery on top of software.
+
+- The factory is now part of the product: onboarding, inputs, reports, customer communication, quality review, refund policy, and delivery cadence need explicit ownership.
+- Document before automating. A screenshot-level runbook is often cheaper than brittle automation until the workflow repeats.
+- Kill options that do not improve results: fewer languages, channels, targets, meetings, or formats can improve quality and reduce load.
+- Do not sell unlimited access to compensate for weak results. More calls, custom work, and vague "we will help with everything" promises usually raise expectations and support load.
+- Delegate execution without losing judgment. Keep a recurring founder review of customer outcomes, objections, churn reasons, and delivery quality.
+- Hire or contract only against a named bottleneck: repetitive operations, client communication, specialist delivery, sales follow-up, or edge-case handling.
+- Allow some inefficiency when it protects continuity, quality, and founder energy. The target is durable margin and customer trust, not theoretical maximum efficiency.
+
 ## Minimal Scale Metrics
 
 Pick at most one or two metrics that change the next decision:
@@ -108,4 +120,3 @@ Rule: automate preparation, reversible execution, monitoring, and queue reductio
 - Ahrefs shows one product-linked distribution engine can scale far when content, product, and search intent reinforce each other.
 - Balsamiq shows visual virality and customer love can scale, but support overload and coordination eventually need ownership and process.
 - Mailchimp shows bootstrapped companies can become very large by serving SMBs with a focused low-touch product, but that scale should not be copied as an early-stage operating model.
-

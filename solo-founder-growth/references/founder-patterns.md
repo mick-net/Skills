@@ -144,6 +144,7 @@ Do not copy blindly:
 - Tony: low-maintenance architecture, feature-led marketing, B2B expansion after pull.
 - Danny: search-demand validation, free tools, pSEO with real page value, backlink authority after product quality.
 - Ilias: SERP-as-brief, free utilities as SEO/conversion assets, and focused money-page sprints.
+- Alex West: market/channel first, paid services as a scoped wedge, metrics reduced to acquisition-retention-price, and strict boundaries when fulfillment gets high-touch.
 
 Best synthesis:
 Build a tiny useful wedge, charge early, publish proof, keep operations light, and let paying users tell you when to expand.
@@ -175,6 +176,32 @@ Do not copy blindly:
 
 - Damon Chen / Testimonial: customer conversations and proof collection as the product. Copy the daily customer-contact habit.
 - Arvid Kahl / FeedbackPanda: embed in a specific community and remove repeated unpaid work. Copy the audience-research discipline.
+
+## Alex West / CyberLeads
+
+Evidence note:
+- These patterns are high-level observations from Alex West's free `Not Business Advice` book series: https://www.alexwest.co/ . The books are worth reading directly for the full story, context, and caveats. This skill should not reproduce the books; use them as evidence for compact operating rules.
+
+Mechanism:
+- Distribution and market before product: his durable winner came after many attempts, by choosing a market/channel where buyers already paid and then adding a simple twist.
+- `Shotgun to sniper`: sample fast until product plus channel works, then stop idea-hopping and repeat the channel until the curve plateaus.
+- Raise the value/price surface when the current offer caps growth: he moved from tiny subscriptions to a higher-priced newsletter and then to a productized service.
+- Use churn and failed usage to find the next offer: customers did not only need leads; some needed help turning leads into opportunities.
+- Productized service can be a valid growth lever, but the factory becomes the product: onboarding, delivery, reports, boundaries, refund risk, documentation, and team load matter as much as the landing page.
+- Metrics should collapse to the business equation: how many customers you get, how long they stay, and how much they pay, then one operational metric for each lever.
+- Simplicity can decay after success. Adding "everything" made the offer harder to understand even when the additions sounded valuable.
+
+Copy:
+- If a paid offer works, document fulfillment before automating or hiring.
+- If stuck, identify whether the next lever is acquisition, retention, or price before adding features.
+- Treat services, consulting, paid audits, or concierge work as valid paid wedges when they solve the downstream job and can be scoped.
+- Use one clear offer and strict service boundaries; more access often raises expectations instead of satisfaction.
+
+Do not copy blindly:
+- Do not use many launches as avoidance once one product/channel has pull.
+- Do not treat virality, big audience, or warm praise as repeatable acquisition unless it creates customers.
+- Do not offer unlimited calls, custom work, or broad promises to rescue a weak offer.
+- Do not assume a business will compound forever; channels, buyer trust, competition, and platform dynamics can decay.
 
 ## Ilias ISM / LinkDR, SEO Roast, GenPPT, AI SEO Tracker
 

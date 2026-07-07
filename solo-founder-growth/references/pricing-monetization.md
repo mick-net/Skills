@@ -13,6 +13,8 @@ Use this for pricing decisions, free/paid boundaries, lifetime vs subscription, 
 - Treat refund reasons and pricing objections as product evidence, not just support cleanup.
 - Low prices are dangerous when support burden, reliability expectations, or variable costs are high.
 - Raise prices as confidence, value, and trust increase.
+- For high-touch offers, price the scope and attention explicitly. Lower price plus more access is usually the worst combination.
+- Annual or prepaid terms can improve cash and LTV, but only when scope, refund policy, support access, and success criteria are tight.
 
 ## Free Boundary
 
@@ -99,6 +101,7 @@ Guardrails:
 - If using one-time pricing, define the path to recurring before the one-time buyers become a dead end.
 - For global prosumer products, consider local currency display and payment friction.
 - For AI/agent products, consider usage-based pricing when one user can create many automated actions.
+- If a price increase reduces close rate or increases buyer skepticism, do not hide in product work. Review calls, objections, proof, positioning, and buyer fit.
 
 ## Pricing Output Template
 

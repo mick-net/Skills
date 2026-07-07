@@ -19,6 +19,8 @@ A small regulated company becomes enterprise-ish when it asks for:
 
 Rule: a cheap plan buys the standard product, standard terms, and standard support. It never buys procurement work, custom security assurances, private deployment, implementation, roadmap priority, or founder availability.
 
+Do not use looser access to rescue weak buyer proof. Unlimited calls, broad custom help, unclear refund promises, or "we will figure it out together" language usually increases expectations faster than it increases trust.
+
 ## Offer Selector
 
 Use the smallest offer that matches the friction:
@@ -142,6 +144,7 @@ Pause or say no when:
 - the buyer wants unlimited support, SLA, liability, exclusivity, IP transfer, or roadmap veto;
 - private deployment or air-gap is requested before value proof;
 - the logo/reference value is the main compensation.
+- the buyer treats the pilot as open-ended consulting rather than a scoped evaluation.
 
 Count logo value as zero unless the contract grants usable reference or case-study rights. Even then, reference rights do not replace acceptable cash economics.
 
