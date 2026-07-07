@@ -103,6 +103,26 @@ Solo-founder usage:
 - `marketing-plan`: use later, after real customers; do not use as a substitute for first sales.
 - `grow-sustainably` and `minimalist-review`: useful for spending, hiring, or scope gut-checks.
 
+## SEO / pSEO / Ads Deep Dives
+
+Use external SEO, pSEO, AI-search, DataForSEO, or paid-ads skills only when:
+
+- the search-demand gate in `seo-demand-validation.md` passes;
+- the founder has a real page pattern, data source, tool, integration, example, template, or proof asset;
+- the next bottleneck is implementation detail, not buyer proof;
+- the user explicitly wants deeper SEO, AI-search, keyword-data, or paid-ads execution.
+
+Useful deeper skills when installed:
+
+- `seo-audit`: technical crawlability, indexation, on-page, schema, speed, sitemap, Search Console, and SEO health checks.
+- `google-ai-seo-writing`: article/content briefs, people-first Google AI Search writing, non-commodity content, and avoiding AI-search hacks.
+- `ai-seo`: AI search/AEO/GEO/LLMO diagnostics and source visibility when the product already has useful public assets.
+- `dataforseo`: keyword volume, CPC, SERP, competitor, and backlink data via API when a data-backed decision is needed.
+- `paid-ads`: small Google Ads or paid-channel validation tests when the founder has a clear query, promise, CTA, and conversion event.
+- `schema-markup`: structured data only when it supports a real rich-result or product/business clarity use case.
+
+Do not route to deeper SEO skills for pre-revenue founders who lack buyer, painful job, paid boundary, or reachable channel. Continue with `community-reachability.md`, `public-surface-onboarding.md`, warm outbound, or a manual paid offer instead.
+
 ## Portable Fallback
 
 If none of these external skills are installed, use this order:

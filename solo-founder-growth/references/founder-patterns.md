@@ -143,6 +143,7 @@ Do not copy blindly:
 - Marc: launch theater, audience-product portfolio, verified proof.
 - Tony: low-maintenance architecture, feature-led marketing, B2B expansion after pull.
 - Danny: search-demand validation, free tools, pSEO with real page value, backlink authority after product quality.
+- Ilias: SERP-as-brief, free utilities as SEO/conversion assets, and focused money-page sprints.
 
 Best synthesis:
 Build a tiny useful wedge, charge early, publish proof, keep operations light, and let paying users tell you when to expand.
@@ -174,3 +175,26 @@ Do not copy blindly:
 
 - Damon Chen / Testimonial: customer conversations and proof collection as the product. Copy the daily customer-contact habit.
 - Arvid Kahl / FeedbackPanda: embed in a specific community and remove repeated unpaid work. Copy the audience-research discipline.
+
+## Ilias ISM / LinkDR, SEO Roast, GenPPT, AI SEO Tracker
+
+Evidence note:
+- These patterns are high-level observations from public product pages and Ilias's public SEO writing, including his product portfolio, free tools, and Blitz SEO framing. Treat public revenue numbers as self-reported unless separately verified.
+
+Mechanism:
+- Use the SERP as the brief: if searchers and Google expect a tool, build a tool; if they expect a comparison, build a comparison; if they expect forums, mine the pain language before building.
+- Turn small utilities into acquisition assets: free checkers, calculators, inspectors, extractors, generators, and reports that solve a narrow searched job and point to a paid product.
+- Prefer output-producing tools over passive dashboards: the user should leave with backlinks, slides, reports, page fixes, keyword gaps, or another concrete artifact.
+- Focus SEO effort on one high-value page/query when a product has proof, instead of spreading work across many weak pages.
+- Build around adjacent SEO/AI jobs so tools can cross-promote, share authority, and reuse audience trust.
+
+Copy:
+- For each product, brainstorm one free utility that shows the paid product's value in under 60 seconds.
+- Use OpenSEO/GSC/keyword data to pick the page/tool, but measure qualified signups, demos, pilots, payments, and retention.
+- Package technical work as a buyer-visible output, not a hidden analysis system.
+
+Do not copy blindly:
+- Do not make free tools that attract researchers, students, or tire-kickers when the paid product needs buyers.
+- Do not treat SEO traffic, AI mentions, or free-tool usage as payment proof.
+- Do not build a portfolio of adjacent tools before one product has a repeatable acquisition or monetization loop.
+- Do not use parasite SEO, spam links, fake reviews, or thin AI pages as a shortcut.

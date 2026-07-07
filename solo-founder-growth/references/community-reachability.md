@@ -11,6 +11,8 @@ Before treating an idea as build-ready, answer:
 3. Where do members gather: X, Reddit, Discord, Slack, forums, LinkedIn, newsletters, marketplaces, events, app stores, search queries, or existing customer lists?
 4. What repeated complaint, workaround, job post, support thread, search query, or paid behavior proves the pain?
 5. Can the founder name or find 10 reachable people/accounts this week?
+6. What does the buyer's average day look like, and which surfaces do they actually check: email, LinkedIn, phone, events, industry groups, newsletters, forums, app stores, or referrals?
+7. Are customers `1-3` reachable through warm network or second-degree intros before cold tooling?
 
 If the answer is no, the next action is community/customer research, not product scope.
 

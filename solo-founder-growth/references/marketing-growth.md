@@ -16,6 +16,48 @@ Before growth loops, force first-customer pressure:
 
 Do not plan clever loops while the founder has no repeatable first-customer motion.
 
+## First 10 Customer Ladder
+
+Do not start with automation. The first customers usually come from founder effort that does not scale.
+
+- `Customers 1-3`: warm network, former colleagues, friends in the industry, classmates, second-degree intros, existing users, or people one introduction away.
+- `Customers 4-10`: unscalable founder work: in-person meetings, small dinners, Reddit/forum DMs, personalized teardowns, workflow reviews, paid expert feedback, whiteboarding, or manual concierge offers.
+- `Customers 10-50`: only then scale the message with Apollo, Clay, sequences, ads, SEO expansion, affiliates, or repeatable outbound tooling.
+
+Prospecting tools are usually premature before 10-20 quality conversations or customers. If the founder has not worked the warm network and reachable communities, the next action is manual outreach, not a better sequencer.
+
+## Buyer Attention Map
+
+Before picking a channel, ask where the buyer actually spends attention:
+
+- Does the buyer live in email, LinkedIn, phone, Slack/Discord, Reddit, YouTube comments, app stores, newsletters, industry forums, trade associations, conferences, job sites, or referrals?
+- Does the buyer check inboxes daily, answer phone calls, attend industry events, or ask peers for recommendations?
+- Which channel contains public pain: complaints, workarounds, old threads, job posts, buying questions, or vendor frustration?
+- Can the founder name 10 reachable people/accounts in that channel this week?
+
+Do not declare outbound broken if the founder used the wrong surface. For legacy, field, regulated, or relationship-driven markets, in-person events, phone calls, trade groups, and warm intros may beat email subject-line tweaking.
+
+## Give Before Ask
+
+A small amount of specific work before asking for time can outperform generic outreach:
+
+- teardown of the buyer's current workflow;
+- short audit note;
+- concrete security/compliance/research observation;
+- app/site/document review;
+- whiteboard session;
+- paid expert-feedback request in high-ACV markets.
+
+Cap the gift. A 20-minute teardown before a 30-minute call can be good sales work. Custom implementation, internal-data analysis, procurement/security work, or private deployment routes to `enterprise-ish-paid-pilots.md`.
+
+Use short human outreach:
+
+- under roughly 75 words;
+- one clear CTA;
+- specific signal or reason for reaching out;
+- language the founder would say out loud;
+- 3-4 follow-ups over a couple of weeks when the buyer is a fit.
+
 ## Growth Loops To Prefer
 
 ### Feature Announcement Loop
@@ -47,6 +89,19 @@ Best for: directories, job boards, marketplaces, benchmark/data products.
 Build into a platform where buyers already are -> publish integration -> get marketplace traffic and credibility -> expand within that ecosystem.
 
 Best for: Shopify, Slack, Notion, Stripe, Zendesk, GitHub, Linear, browser extensions, AI provider ecosystems.
+
+## Channel Router
+
+Do not default to SEO when another channel is closer to buyer proof.
+
+- `Known search intent + unique page value`: use SEO/pSEO.
+- `Known buyer list + trust-heavy offer`: use LinkedIn, direct email, calls, and proof assets.
+- `Visual workflow or before/after`: use YouTube, short demos, Looms, LinkedIn video, and landing-page embeds.
+- `Pain discussed but not searched`: use Reddit, niche communities, Slack/Discord, forums, and customer interviews.
+- `Platform-specific demand`: use marketplaces, integration pages, partner directories, and ecosystem launch posts.
+- `Unclear demand`: run 10 prospect conversations, a manual offer, or a small ads/landing-page test before building.
+
+SEO compounds after the page pattern works. It should not postpone direct buyer contact.
 
 ## Launch Checklist
 
@@ -130,6 +185,22 @@ Map where similar products already get attention:
 - Tutorials and templates.
 
 Use the map to decide where to launch, contribute, pitch, write, partner, or build an integration. End with a decision: pursue, test, ignore, or revisit later.
+
+## AI-Search Recommendation Map
+
+When AI-search visibility matters, test 10-20 buyer prompts manually across relevant AI-search surfaces.
+
+For each prompt, record:
+
+- Which products are recommended.
+- Which sources are cited or linked.
+- How the category is framed.
+- Whether the founder's product is missing, misdescribed, or weaker than competitors.
+- What sourceable asset would deserve inclusion.
+
+End with one decision: improve a sourceable page, create a comparison/tool/example asset, seek real customer proof, fix crawlability, or ignore AI-search for now.
+
+Do not create fake mentions, fake reviews, fake community posts, or AI-only pages to manipulate recommendations.
 
 ## Build-In-Public Rules
 

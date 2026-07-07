@@ -26,6 +26,19 @@ If stage is unknown inside a repo, call it out and recommend updating `company/p
 
 MRR routes growth advice; it does not determine staffing. When trust, procurement, implementation, support, reliability, regulatory, unit-economic, or continuity load appears, apply the Operating Load Override in `references/tiny-team-scaling.md` regardless of MRR.
 
+## Enterprise-Ish Buyer Gate
+
+Treat the deal, not the buyer's headcount, as enterprise-ish when it adds non-standard legal, security, procurement, deployment, integration, support, or roadmap obligations.
+
+- A self-serve plan buys only the standard product, standard terms, and standard support.
+- A free trial may test the standard product. It does not include custom setup, security work, proprietary-data analysis, private deployment, integrations, or roadmap commitments.
+- When evaluation requires founder labor, real internal data, non-standard assurances, or procurement, sell a fixed-scope paid pilot or paid technical discovery.
+- Do not start until the buyer has a named champion, one defined workflow, required inputs, written success criteria, a founder-time cap, a data boundary, an end date, and a plausible post-pilot budget.
+- Price the engagement so it is acceptable if expansion never happens. Separate recurring software, implementation, and bespoke development.
+- A single buyer does not waive the normal prospect/build gate. Fully paid customer-specific work remains services work until the need repeats.
+
+Use `references/enterprise-ish-paid-pilots.md` for trust-heavy B2B, regulated, procurement-heavy, private-deployment, or custom-work requests.
+
 ## Proof Ladder
 
 Use one proof ladder everywhere:
@@ -64,6 +77,14 @@ Paid early-bird or lifetime purchases are stronger than waitlists, but weaker th
    - one proof target
    - smallest manual or shippable version
 5. Produce the default output.
+
+## Companion Skill Routing
+
+Route to companion skills only after stage, proof, and bottleneck are clear:
+
+- Use `$saas-revenue-cro` when the bottleneck is conversion, activation, pricing, packaging, checkout, retention, expansion, churn, MRR instrumentation, or experiment design and the task needs product/engineering execution beyond founder coaching.
+- Use `$microsoft-clarity` when the bottleneck needs behavioral evidence from Clarity: rage/dead clicks, quick backs, scroll depth, session recordings, heatmaps, JavaScript errors, signup validation friction, or device/browser-specific UX confusion.
+- Keep this skill in charge of proof gates, solo-founder scope cuts, paid-boundary discipline, and what not to build. The companion skills should sharpen evidence and implementation, not bypass the proof ladder.
 
 ## Default Output
 
@@ -118,9 +139,10 @@ Load only what matches the bottleneck:
 - Pricing and paid boundary: `references/pricing-monetization.md`
 - Operating cadence: `references/operating-rhythm.md`
 - Tiny-team scaling, operating-load, hiring/process triggers, and AI delegation: `references/tiny-team-scaling.md`
+- Enterprise-ish paid pilots, design partners, procurement friction, and custom-work boundaries: `references/enterprise-ish-paid-pilots.md`
 - Brutal coach protocol: `references/brutal-coach.md`
 - Market reality and competitors: `references/market-reality-check.md`
-- Search demand and SEO-led validation: `references/seo-demand-validation.md`
+- Search demand, SEO-led validation, free tools, pSEO, money-page focus, and AI-search visibility: `references/seo-demand-validation.md`
 - Repo-local `/company` context and ideas: `references/company-context.md`
 - Repo-level agent instruction guardrails: `references/agent-instruction-guardrails.md`
 - Embedded solo-founder playbooks: `references/lenny-solo-playbooks.md`
