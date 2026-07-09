@@ -61,5 +61,6 @@ options.
 - `solo-founder-growth`: coach solo SaaS/app founders toward MRR with scope, pricing, launch, and accountability playbooks.
 - `gstack-office-hours`: pressure-test startup ideas with GStack-inspired YC-style forcing questions.
 - `gstack-plan-ceo-review`: challenge implementation plans with GStack-inspired scope reduction and CEO review.
+- `orchestrating-subagents`: route Codex work across Sol, Terra, and Luna subagents with risk-based review and double-fan-out guardrails.
 
 Each skill is self-contained in its own folder with a required `SKILL.md`.

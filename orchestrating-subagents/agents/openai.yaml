@@ -1,0 +1,4 @@
+interface:
+  display_name: "Orchestrate Subagents"
+  short_description: "Route work across Sol, Terra, and Luna"
+  default_prompt: "Use $orchestrating-subagents to execute this task with the right Sol, Terra, and Luna agent mix."
