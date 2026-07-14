@@ -62,5 +62,6 @@ options.
 - `gstack-office-hours`: pressure-test startup ideas with GStack-inspired YC-style forcing questions.
 - `gstack-plan-ceo-review`: challenge implementation plans with GStack-inspired scope reduction and CEO review.
 - `orchestrating-subagents`: route Codex work across Sol, Terra, and Luna subagents with risk-based review and double-fan-out guardrails.
+- `codex-goal-designer`: design rigorous Codex `/goal` prompts with bounded scope, verification, budgets, and stop conditions.
 
 Each skill is self-contained in its own folder with a required `SKILL.md`.
