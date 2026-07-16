@@ -1,0 +1,4 @@
+interface:
+  display_name: "SaaS Performance Hillclimb"
+  short_description: "Run evidence-backed SaaS speed experiments"
+  default_prompt: "Use $saas-performance-hillclimb to benchmark this slow SaaS path, localize the bottleneck, and run one safe baseline-versus-candidate experiment."
