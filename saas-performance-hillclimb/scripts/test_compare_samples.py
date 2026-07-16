@@ -27,6 +27,28 @@ class CompareSamplesTests(unittest.TestCase):
 
         self.assertGreater(result["deltas"]["median"]["improvement_percent"], 0)
 
+    def test_lower_is_better_handles_negative_baseline(self):
+        baseline = SampleSet("offset", "ms", "lower", (-10.0, -10.0))
+        candidate = SampleSet("offset", "ms", "lower", (-20.0, -20.0))
+
+        result = compare(baseline, candidate)
+
+        self.assertEqual(
+            100.0,
+            result["deltas"]["median"]["improvement_percent"],
+        )
+
+    def test_higher_is_better_handles_negative_baseline(self):
+        baseline = SampleSet("offset", "ms", "higher", (-20.0, -20.0))
+        candidate = SampleSet("offset", "ms", "higher", (-10.0, -10.0))
+
+        result = compare(baseline, candidate)
+
+        self.assertEqual(
+            50.0,
+            result["deltas"]["median"]["improvement_percent"],
+        )
+
     def test_rejects_non_finite_or_too_few_samples(self):
         with self.assertRaisesRegex(ValueError, "finite"):
             SampleSet("latency", "ms", "lower", (1.0, float("nan")))
@@ -85,6 +107,66 @@ class CompareSamplesTests(unittest.TestCase):
                 SampleSet("latency", "ms", "lower", (100.0, 120.0)),
                 result,
             )
+
+    def test_load_sample_set_rejects_unexpected_field(self):
+        with tempfile.TemporaryDirectory() as directory:
+            sample_path = Path(directory, "samples.json")
+            sample_path.write_text(
+                json.dumps(
+                    {
+                        "metric": "latency",
+                        "unit": "ms",
+                        "direction": "lower",
+                        "samples": [100, 120],
+                        "typo": True,
+                    }
+                )
+            )
+
+            with self.assertRaisesRegex(ValueError, "unexpected fields: typo"):
+                load_sample_set(sample_path)
+
+    def test_cli_rejects_unexpected_field(self):
+        with tempfile.TemporaryDirectory() as directory:
+            baseline_path = Path(directory, "baseline.json")
+            candidate_path = Path(directory, "candidate.json")
+            baseline_path.write_text(
+                json.dumps(
+                    {
+                        "metric": "latency",
+                        "unit": "ms",
+                        "direction": "lower",
+                        "samples": [100, 120],
+                        "typo": True,
+                    }
+                )
+            )
+            candidate_path.write_text(
+                json.dumps(
+                    {
+                        "metric": "latency",
+                        "unit": "ms",
+                        "direction": "lower",
+                        "samples": [80, 90],
+                    }
+                )
+            )
+
+            completed = subprocess.run(
+                [
+                    sys.executable,
+                    str(Path(__file__).with_name("compare_samples.py")),
+                    str(baseline_path),
+                    str(candidate_path),
+                    "--format",
+                    "json",
+                ],
+                capture_output=True,
+                text=True,
+            )
+
+            self.assertNotEqual(0, completed.returncode)
+            self.assertIn("unexpected fields: typo", completed.stderr)
 
     def test_cli_emits_json(self):
         with tempfile.TemporaryDirectory() as directory:

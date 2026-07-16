@@ -61,10 +61,16 @@ def load_sample_set(path: str | Path) -> SampleSet:
     if not isinstance(payload, dict):
         raise ValueError("sample file must contain a JSON object")
 
-    required = ("metric", "unit", "direction", "samples")
-    missing = [name for name in required if name not in payload]
+    required = {"metric", "unit", "direction", "samples"}
+    missing = sorted(required - set(payload))
+    unexpected = sorted(set(payload) - required)
+    schema_errors = []
     if missing:
-        raise ValueError(f"sample file is missing required fields: {', '.join(missing)}")
+        schema_errors.append(f"missing fields: {', '.join(missing)}")
+    if unexpected:
+        schema_errors.append(f"unexpected fields: {', '.join(unexpected)}")
+    if schema_errors:
+        raise ValueError(f"sample file schema mismatch: {'; '.join(schema_errors)}")
     if not isinstance(payload["samples"], list):
         raise ValueError("samples must be a JSON list")
 
@@ -120,10 +126,13 @@ def compare(baseline: SampleSet, candidate: SampleSet) -> dict:
         baseline_value = float(baseline_summary[statistic])
         candidate_value = float(candidate_summary[statistic])
         absolute = candidate_value - baseline_value
-        percent = None if baseline_value == 0 else absolute / baseline_value * 100.0
-        improvement = percent
-        if percent is not None and baseline.direction == "lower":
-            improvement = -percent
+        if baseline_value == 0:
+            percent = None
+            improvement = None
+        else:
+            percent = absolute / baseline_value * 100.0
+            directional_delta = -absolute if baseline.direction == "lower" else absolute
+            improvement = directional_delta / abs(baseline_value) * 100.0
         deltas[statistic] = {
             "absolute": absolute,
             "percent": percent,
