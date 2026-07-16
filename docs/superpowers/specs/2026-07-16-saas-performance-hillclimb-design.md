@@ -12,8 +12,8 @@ Create a reusable `saas-performance-hillclimb` skill that helps Codex improve th
 - Separate cold-cache, warm-cache, concurrency, dataset-size, geographic, device, and network scenarios when they represent different user experiences.
 - Prefer repeated baseline/candidate measurements and distributions over single runs or averages.
 - Require correctness and holdout/sentinel protection before keeping an optimization.
-- Create the source of truth directly in `/Users/mickvermaat/.codex/skills/saas-performance-hillclimb` so Codex discovers it globally.
-- Keep this design record in the local Skills checkout for provenance, but do not mirror the skill into that public repository, update its README, publish, or push unless the user separately requests it.
+- Keep the maintained source in `/Users/mickvermaat/Github/Skills/saas-performance-hillclimb`, index it in that repository's `README.md`, and publish the scoped commits to the `mick-net/Skills` remote.
+- Install an identical complete copy in `/Users/mickvermaat/.codex/skills/saas-performance-hillclimb` so Codex discovers it globally.
 
 ## Alternatives Considered
 
@@ -135,14 +135,14 @@ Escalate from a microbenchmark to component/load/E2E testing only after the narr
 
 ## Validation
 
-1. Run the skill creator's `quick_validate.py` against the global skill.
+1. Run the skill creator's `quick_validate.py` against the maintained source and global installation.
 2. Test `compare_samples.py` with lower-is-better, higher-is-better, malformed, and mismatched inputs.
-3. Forward-test the skill on three independent synthetic prompts: a slow SQL-backed endpoint, a server-rendered page with high TTFB, and a client page with poor LCP/INP. Give validators only the skill and task artifacts, not the intended diagnosis.
-4. Refine instructions if validators skip baselines, conflate cache states, optimize averages alone, or propose production-impacting tests without explicit authority.
+3. Verify source/install parity with `diff -rq` before publication.
+4. Forward-test the skill on three independent synthetic prompts: a slow SQL-backed endpoint, a server-rendered page with high TTFB, and a client page with poor LCP/INP. Give validators only the skill and task artifacts, not the intended diagnosis.
+5. Refine instructions if validators skip baselines, conflate cache states, optimize averages alone, or propose production-impacting tests without explicit authority.
 
 ## Out of Scope
 
 - Reliability, cost, conversion, SEO content, accessibility, or security optimization as primary goals.
 - Automatic production rollout or load generation.
 - A universal observability stack or mandatory benchmark framework.
-- Publishing or pushing the skill without a separate request.
