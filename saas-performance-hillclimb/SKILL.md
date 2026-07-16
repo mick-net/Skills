@@ -48,6 +48,10 @@ Do not infer database work from a slow endpoint without a plan or trace. Do not 
 
 Use paired or interleaved runs when environmental drift is likely. Never average cold and warm behavior into one result. See [the complete experiment loop](references/experiment-loop.md) whenever defining or executing a baseline-versus-candidate experiment.
 
+## Fallback Comparison Tool
+
+Prefer project-native comparison tooling when it exists. Otherwise, save each sample set as `{"metric": "latency", "unit": "ms", "direction": "lower", "samples": [100, 110, 120]}` and run `python3 saas-performance-hillclimb/scripts/compare_samples.py BASELINE.json CANDIDATE.json --format text` (or use `--format json` for machine-readable output).
+
 ## Decide Whether to Keep the Change
 
 Keep a change only when the primary metric improves materially, correctness and error guardrails pass, no meaningful holdout or sentinel regression appears, the implicated diagnostic moves as predicted, and repeated runs distinguish the result from ordinary noise.
@@ -69,4 +73,3 @@ Revert or reject a candidate that shifts work to another layer, improves only an
 - For API, backend, dependency, capacity, SSR, or TTFB work, read [API and server performance](references/api-and-server-performance.md).
 - For page load, Lighthouse, LCP, INP, CLS, browser runtime, or SEO performance work, read [web client performance](references/web-client-performance.md).
 - When the repository has no durable performance-record convention, copy [the experiment record](references/experiment-record.md) to `docs/performance/experiments/YYYY-MM-DD-<slug>.md` and keep it current.
-
