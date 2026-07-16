@@ -213,6 +213,45 @@ class CompareSamplesTests(unittest.TestCase):
                 set(payload),
             )
 
+    def test_default_cli_text_emits_both_sample_counts(self):
+        with tempfile.TemporaryDirectory() as directory:
+            baseline_path = Path(directory, "baseline.json")
+            candidate_path = Path(directory, "candidate.json")
+            baseline_path.write_text(
+                json.dumps(
+                    {
+                        "metric": "latency",
+                        "unit": "ms",
+                        "direction": "lower",
+                        "samples": [100, 120, 140],
+                    }
+                )
+            )
+            candidate_path.write_text(
+                json.dumps(
+                    {
+                        "metric": "latency",
+                        "unit": "ms",
+                        "direction": "lower",
+                        "samples": [80, 90],
+                    }
+                )
+            )
+
+            completed = subprocess.run(
+                [
+                    sys.executable,
+                    str(Path(__file__).with_name("compare_samples.py")),
+                    str(baseline_path),
+                    str(candidate_path),
+                ],
+                check=True,
+                capture_output=True,
+                text=True,
+            )
+
+            self.assertIn("count: baseline=3 candidate=2", completed.stdout)
+
 
 if __name__ == "__main__":
     unittest.main()

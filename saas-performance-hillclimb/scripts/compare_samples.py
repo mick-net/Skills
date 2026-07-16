@@ -157,7 +157,9 @@ def _format_number(value: float | int | None) -> str:
 
 def _format_text(result: dict) -> str:
     lines = [
-        f"{result['metric']} ({result['unit']}; {result['direction']} is better)"
+        f"{result['metric']} ({result['unit']}; {result['direction']} is better)",
+        f"count: baseline={result['baseline']['count']} "
+        f"candidate={result['candidate']['count']}",
     ]
     for statistic in SUMMARY_STATISTICS:
         delta = result["deltas"][statistic]
