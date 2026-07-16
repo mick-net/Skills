@@ -32,4 +32,3 @@ Change one main variable and rerun the same baseline protocol plus a sentinel qu
 ## Keep or Revert
 
 Keep a SQL optimization only when the primary user-visible or query metric clears the threshold, plan or wait evidence moves as predicted, correctness and row semantics match, representative parameter classes improve, and write/lock/pool sentinels stay within guardrails. Revert candidates that merely warm caches, trade read speed for unacceptable write cost, help one cardinality while harming another, increase contention, or cannot reproduce outside a microbenchmark.
-

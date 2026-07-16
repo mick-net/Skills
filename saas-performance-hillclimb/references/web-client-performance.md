@@ -41,4 +41,3 @@ Treat crawl or rendering performance as in scope only when the task is specifica
 ## Validate the Candidate
 
 Change one main variable and repeat the identical lab profile. Compare distributions and raw traces, then validate the target metric in field/RUM data when available and statistically supportable. Run a sentinel route, interaction, viewport, device, or network profile. Keep only changes whose primary metric and predicted waterfall or main-thread diagnostic improve without regressions to correctness, other Core Web Vitals, resource use, or the sentinel.
-

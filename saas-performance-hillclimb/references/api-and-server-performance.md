@@ -39,4 +39,3 @@ Grafana k6 documents [percentile and error-rate thresholds](https://grafana.com/
 State one prediction connecting a candidate to both a headline metric and a diagnostic, such as reduced serialization CPU, dependency span time, queue delay, or time to first streamed byte. Change one main variable, repeat the identical request and load shape, and run an adjacent route, payload, tenant shape, or concurrency level as the sentinel.
 
 Keep a candidate only when its latency distribution or throughput clears the declared threshold, errors and correctness pass, the implicated span or profile moves as predicted, resource use stays within guardrails, and the sentinel does not regress. Reject changes that hide latency in a queue or cache, increase retry storms, improve average latency while harming tails, move work into the browser, or only succeed below representative load.
-

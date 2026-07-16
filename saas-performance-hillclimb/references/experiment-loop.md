@@ -70,4 +70,3 @@ Otherwise:
 - **Mark inconclusive** when noise or environment drift prevents a decision; choose the next experiment that most reduces uncertainty.
 
 Log baseline and candidate samples or artifact paths, comparison statistics, trace or plan evidence, guardrail and sentinel results, the decision, rollback, remaining uncertainty, and the next experiment. Use the repository's convention; otherwise use `docs/performance/experiments/YYYY-MM-DD-<slug>.md` with [the experiment record](experiment-record.md).
-
