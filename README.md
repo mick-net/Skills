@@ -55,6 +55,7 @@ options.
 
 - `traceable-commit`: create narrow, decision-aware Git commits with real verification and provenance trailers.
 - `benchmark-hillclimb`: improve AI agents or retrieval systems through trace-driven benchmark experiments.
+- `saas-performance-hillclimb`: improve SQL, API, server-rendering, and browser speed through controlled baseline-versus-candidate experiments.
 - `marketing-use-case-pipeline`: turn real workflows into validated marketing use-case packs.
 - `marketing-capture`: create real product screenshots and demo videos from deterministic scenarios.
 - `continente-grocery-shopping`: existing grocery-shopping workflow skill.
