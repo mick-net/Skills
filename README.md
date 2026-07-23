@@ -60,6 +60,10 @@ options.
 - `marketing-capture`: create real product screenshots and demo videos from deterministic scenarios.
 - `continente-grocery-shopping`: existing grocery-shopping workflow skill.
 - `solo-founder-growth`: coach solo SaaS/app founders toward MRR with scope, pricing, launch, and accountability playbooks.
+- `startup-pressure-test`: pressure-test startup ideas against real customer pain, competition, first customers, MVP scope, and launch evidence.
+- `copywriting`: write persuasive, specific marketing copy for SaaS, products, landing pages, pricing pages, and CTAs.
+- `copy-editing`: improve existing marketing copy for clarity, specificity, plain English, persuasion, and conversion.
+- `seo-audit`: run an evidence-aware technical, on-page, content, and authority SEO audit without confusing tool limitations for findings.
 - `gstack-office-hours`: pressure-test startup ideas with GStack-inspired YC-style forcing questions.
 - `gstack-plan-ceo-review`: challenge implementation plans with GStack-inspired scope reduction and CEO review.
 - `orchestrating-subagents`: route Codex work across Sol, Terra, and Luna subagents with risk-based review and double-fan-out guardrails.
