@@ -1,0 +1,4 @@
+interface:
+  display_name: "Converge and Finish"
+  short_description: "Finish features with bounded risk-based review"
+  default_prompt: "Use $converge-and-finish to complete the user-visible feature, fix material risks, and bound review and test loops."
